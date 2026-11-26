@@ -1,0 +1,31 @@
+{
+  "name": "Garden State Strikers Cricket Club",
+  "short_name": "GS Strikers",
+  "description": "Official Progressive Web App for the Garden State Strikers Cricket Club in New Jersey. Home grounds, interactive squad roster, and matchday gallery.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#09081b",
+  "theme_color": "#0f0e2a",
+  "categories": ["sports", "lifestyle"],
+  "icons": [
+    {
+      "src": "./assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

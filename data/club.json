@@ -1,0 +1,780 @@
+{
+  "clubName": "Garden State Strikers",
+  "shortName": "GSS",
+  "logo": "./assets/icons/logo.webp",
+  "logoFallback": "./images/gss-logo.jpg",
+  "cricclubsTeamUrl": "https://cricclubs.com/MillenniumTwenty20/viewTeam.do?teamId=350&league=29&clubId=21827",
+  "welcome": {
+    "heading": "Welcome to Garden State Strikers",
+    "lead": "We are glad you found us. While our roots began as a casual neighborhood gathering, today we are a tight-knit, closed group of passionate cricketers across New Jersey who come together every weekend for three to four hours of high-energy, spirited cricket.",
+    "storyCtaText": "Want to see how it all began? Read our club story below.",
+    "philosophy": "The moment we step onto the field, job titles, backgrounds, and everyday distractions stay at the boundary line we play strictly as one team. Respecting teammates, honoring the spirit of the game, and genuinely celebrating each other’s success always come first. We believe that when camaraderie and grit lead the way, winning naturally follows.",
+    "connect": "If those values sound like how you love to play the game, we would love to connect. Reach out and let’s see how we can share the pitch together."
+  },
+  "history": {
+    "heading": "Our History",
+    "subheading": "From a father-and-son playground pitch in New Providence to USCL & Millennium Twenty20 contenders across New Jersey",
+    "intro": "Every great club is built on persistence, principle, and a love for the game that refuses to be sidelined. Here is how Garden State Strikers came to life.",
+    "chapters": [
+      {
+        "era": "Summer 2020",
+        "title": "A Father, a Son, and a Playground Pitch",
+        "tag": "New Providence, NJ",
+        "founderHighlight": "Chethan Raghavendra & Pushan Raghavendra",
+        "description": "Our story began in the summer of 2020 in the small town of New Providence, New Jersey. Founding member Chethan Raghavendra who grew up in a family of disciplined athletes and represented his state at the age-group level headed out to the open playground at Allen Roberts Elementary School with his son, Pushan Raghavendra, to stay active. With cricket in their DNA, it wasn’t long before bat and ball came out. Their daily father-son sessions quickly caught the eye of neighbors, and within a few weeks, a casual backyard workout had snowballed into a full squad playing every single weekday after work."
+      },
+      {
+        "era": "Late 2020",
+        "title": "Scouting Grounds with a Measuring Tape",
+        "tag": "Grassroots Initiative",
+        "founderHighlight": "Mapping Every Park in Town",
+        "description": "Seeing the enthusiasm across town, Chethan, Pushan, and fellow founding members set their sights on building a permanent home for local cricket. Because cricket is still a niche sport in the U.S., getting field space wasn’t easy. Chethan and Pushan drove to every park in town with a measuring tape to find underutilized spaces where a cricket pitch could coexist without disrupting existing sports. After days of scouting, they pinpointed two neglected fields with real potential and rallied local residents to petition the township."
+      },
+      {
+        "era": "2021",
+        "title": "Turning a \"No\" into a Registered Club",
+        "tag": "NPCC & USCL Debut",
+        "founderHighlight": "Persistence at Township Hall",
+        "description": "As expected, the initial proposal was turned down. But persistence is woven into how we play we don’t walk away when the odds are stacked against us. The group requested an in-person meeting with the township councilman to walk through how cricket could safely share space with other community sports. The pitch worked. To secure field access, the township required an officially registered sports organization giving birth to our original club (which we’ll refer to as NPCC). Recognizing the talent in our ranks, we entered our very first New Jersey tournament in the USCL league."
+      },
+      {
+        "era": "Late 2022 – Present",
+        "title": "The Birth of Garden State Strikers",
+        "tag": "A Fresh Start on Principle",
+        "founderHighlight": "Protecting Our Culture & Integrity",
+        "description": "As the saying goes, once the cake is baked, everyone wants a slice even those who never helped in the kitchen. By late 2022, internal politics crept in from individuals more interested in control than respecting teammates or the integrity of the game. Rather than compromise the culture we built from scratch, the core group made the principled decision to walk away and start fresh.\n\nAt the end of 2022, Garden State Strikers was born carrying forward the true spirit, camaraderie, and grit of the original founders. Today, the Strikers compete actively across the local New Jersey circuit, growing stronger in bond and roster every single season."
+      }
+    ]
+  },
+  "season": {
+    "year": 2026,
+    "name": "2026 Summer T20 - Saturday - Gold Division",
+    "status": "2026 Gold Division Runner-Up • 90% Win Rate",
+    "league": "Millennium Twenty20 • Gold Division (Group B)",
+    "record": {
+      "played": 13,
+      "won": 10,
+      "lost": 2,
+      "noResult": 1,
+      "points": 19,
+      "standing": "2nd in Group B (9-1-1) • Gold Div Finalists",
+      "netRunRate": "+1.7142"
+    },
+    "highlight": "Won Qualifier 1 vs Mumbai Gymkhana (131/8 vs 60/10) • Top Scorer: Prabakaran Jayabalan (470 Runs) • Top Bowler: Santosh Lalan (15 Wkts)",
+    "captain": "Anil Sidaganahalli",
+    "viceCaptain": "Santosh Lalan"
+  },
+  "grounds": [
+    {
+      "id": "cedar-brook-park",
+      "name": "Cedar Brook Park Cricket Ground",
+      "badge": "Home Ground",
+      "city": "Plainfield, NJ",
+      "address": "Cedar Brook Park, Mathewson Dr, Plainfield, NJ 07060",
+      "coordinates": {
+        "lat": 40.6022,
+        "lng": -74.4071
+      },
+      "pitchType": "20-Over Leather Ball Turf / Mat Wicket",
+      "boundaryMeters": "Standard T20 Oval",
+      "facilities": [
+        "Umpire End Sight Area",
+        "Park Shade Trees",
+        "Restrooms",
+        "Park Lot Parking"
+      ],
+      "notes": "Home pitch of the Garden State Strikers, including our season-opening 252/7 (145-run win vs NJ Revenants), thrilling 15.5-over chase vs Ceylon CC, and 25-run victory over Crimson Hawks."
+    }
+  ],
+  "timelineTabs": [
+    {
+      "id": "club",
+      "label": "Club Milestones",
+      "subtitle": "How Garden State Strikers was built from the ground up (2020 – 2026)",
+      "items": [
+        {
+          "year": "Summer 2020",
+          "title": "A Father, a Son, and a Playground Pitch",
+          "tag": "New Providence, NJ",
+          "description": "Founding member Chethan Raghavendra and his son Pushan Raghavendra head out to the open playground at Allen Roberts Elementary School with bat and ball sparking daily sessions that quickly snowball into a full neighborhood squad playing every weekday after work."
+        },
+        {
+          "year": "Late 2020",
+          "title": "Scouting Grounds with a Measuring Tape",
+          "tag": "Park Scouting & Petition",
+          "description": "Chethan, Pushan, and fellow founding members drive across every park in town with a measuring tape, pinpointing two neglected fields where a cricket pitch could coexist with local sports and rallying residents to petition the township."
+        },
+        {
+          "year": "2021",
+          "title": "Turning a \"No\" into a Registered Club & USCL Debut",
+          "tag": "Official Registration",
+          "description": "After an initial rejection, an in-person walkthrough with the township councilman wins approval. The founders officially register our original club (NPCC) to secure field access and enter our very first New Jersey tournament in the USCL league."
+        },
+        {
+          "year": "Late 2022",
+          "title": "The Birth of Garden State Strikers",
+          "tag": "Culture Over Politics",
+          "description": "Rather than compromise teammate respect or the integrity of the game when internal politics crept in, the core founding group makes the principled decision to walk away and start fresh giving birth to Garden State Strikers."
+        },
+        {
+          "year": "2023 – 2026",
+          "title": "5 Consecutive Postseason Campaigns Across USCL & Millennium Cricket League",
+          "tag": "35 Wins • 2x Championship Finalists",
+          "description": "After competing in USCL through Fall 2024 (highlighted by our 2024 USCL Summer T-20 Runner-Up finish), Garden State Strikers transitioned to the Millennium Cricket League finishing as 2026 Summer Gold Division Runner-Up (10W-2L-1NR) and going unbeaten in the 2026 MCL Fall T20 Elite regular season (5W-1L-1NR)."
+        }
+      ]
+    },
+    {
+      "id": "summer-t20",
+      "label": "Summer T20",
+      "subtitle": "USCL (2023–2024) & Millennium Cricket League Gold Division (2026) Summer T20 Campaigns",
+      "items": [
+        {
+          "year": "2023 Summer T20",
+          "title": "Inaugural GSS USCL Summer Playoff Run (8W – 5L – 1NR)",
+          "tag": "USCL Playoffs • 14 Matches",
+          "description": "In our debut summer under the Garden State Strikers banner, GSS went 8-3-1 in regular-season play highlighted by posting 225/3 to beat United CC by 13 runs (Jun 18) and bowling out United CC for 77 (Jul 22) and Kings XI for 65 (Aug 12) to reach the Qualifier & Eliminator playoffs. Santosh Lalan led with 381 runs (HS 103) and 15 wickets."
+        },
+        {
+          "year": "2024 Summer T20",
+          "title": "USCL Summer T-20 Championship Finalists (9W – 2L – 2NR)",
+          "tag": "2024 Runner-Up • 8-0 Regular Season",
+          "description": "Posted an unbeaten 8-0-2 regular season in USCL Summer T-20 including a 160-run demolition of Edison Tigers (216/6 vs 56/10 on Jul 14) and defeated Nalwa The Great Warrior by 6 wickets in the Eliminator (140/4 vs 137/10 on Aug 4) to finish as 2024 USCL Runner-Up. Powered by Anbumani Mailathipathy (431 runs, HS 158, Avg 61.57) and Santosh Lalan (30 wickets, BBF 5/5, Econ 4.48)."
+        },
+        {
+          "year": "2026 Summer T20",
+          "title": "Millennium Twenty20 Gold Division Runner-Up (10W – 2L – 1NR)",
+          "tag": "Gold Div Finalists • +1.7142 NRR",
+          "description": "Opened the 2026 Gold Division campaign with a record 252/7 at Cedar Brook Park (145-run win vs NJ Revenants), reeled off a 7-0 start to finish 2nd in Group B (90% win rate), and skittled #1 seed Mumbai Gymkhana for 60 in Qualifier 1 (71-run win) to reach the Championship Final led by Prabakaran Jayabalan (470 runs, 5 fifties) and Santosh Lalan (15 wkts)."
+        }
+      ],
+      "yearFilters": [
+        {
+          "id": "overview",
+          "label": "All Years (Overview)",
+          "summary": "USCL (2023–2024) & Millennium Cricket League (2026) • 27W – 9L – 4NR Across 40 Summer T20 Matches",
+          "items": [
+            {
+              "year": "2023 Summer T20",
+              "title": "Inaugural GSS USCL Summer Playoff Run (8W – 5L – 1NR)",
+              "tag": "USCL Playoffs • 14 Matches",
+              "description": "In our debut summer under the Garden State Strikers banner, GSS went 8-3-1 in regular-season play highlighted by posting 225/3 to beat United CC by 13 runs (Jun 18) and bowling out United CC for 77 (Jul 22) and Kings XI for 65 (Aug 12) to reach the Qualifier & Eliminator playoffs. Santosh Lalan led with 381 runs (HS 103) and 15 wickets."
+            },
+            {
+              "year": "2024 Summer T20",
+              "title": "USCL Summer T-20 Championship Finalists (9W – 2L – 2NR)",
+              "tag": "2024 Runner-Up • 8-0 Regular Season",
+              "description": "Posted an unbeaten 8-0-2 regular season in USCL Summer T-20 including a 160-run demolition of Edison Tigers (216/6 vs 56/10 on Jul 14) and defeated Nalwa The Great Warrior by 6 wickets in the Eliminator (140/4 vs 137/10 on Aug 4) to finish as 2024 USCL Runner-Up. Powered by Anbumani Mailathipathy (431 runs, HS 158, Avg 61.57) and Santosh Lalan (30 wickets, BBF 5/5, Econ 4.48)."
+            },
+            {
+              "year": "2026 Summer T20",
+              "title": "Millennium Twenty20 Gold Division Runner-Up (10W – 2L – 1NR)",
+              "tag": "Gold Div Finalists • +1.7142 NRR",
+              "description": "Opened the 2026 Gold Division campaign with a record 252/7 at Cedar Brook Park (145-run win vs NJ Revenants), reeled off a 7-0 start to finish 2nd in Group B (90% win rate), and skittled #1 seed Mumbai Gymkhana for 60 in Qualifier 1 (71-run win) to reach the Championship Final led by Prabakaran Jayabalan (470 runs, 5 fifties) and Santosh Lalan (15 wkts)."
+            }
+          ]
+        },
+        {
+          "id": "2026",
+          "label": "2026 (13 Games)",
+          "summary": "2026 Millennium Twenty20 Gold Division • 10W – 2L – 1NR • Group B 2nd Place (+1.7142 NRR) • Championship Finalists",
+          "highlightItem": {
+            "year": "2026 Summer T20",
+            "title": "Millennium Twenty20 Gold Division Runner-Up (10W – 2L – 1NR)",
+            "tag": "Gold Div Finalists • +1.7142 NRR",
+            "description": "Opened the 2026 Gold Division campaign with a record 252/7 at Cedar Brook Park (145-run win vs NJ Revenants), reeled off a 7-0 start to finish 2nd in Group B (90% win rate), and skittled #1 seed Mumbai Gymkhana for 60 in Qualifier 1 (71-run win) to reach the Championship Final led by Prabakaran Jayabalan (470 runs, 5 fifties) and Santosh Lalan (15 wkts)."
+          },
+          "items": [
+            {
+              "year": "Match #1 • 04/18/2026",
+              "title": "GSS vs. NJ Revenants   Garden State Strikers won by 145 Runs",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 252/7 (20/20) • NJ Revenants: 107/9 (20/20) (Cedar Brook Park)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumTwenty20/viewScorecard.do?matchId=1513&clubId=21827"
+            },
+            {
+              "year": "Match #2 • 05/02/2026",
+              "title": "GSS vs. Renegades   Garden State Strikers won by 3 Wickets",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Renegades: 166/7 (20/20) • Garden State Strikers: 171/7 (19.3/20) (Central NJ)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumTwenty20/viewScorecard.do?matchId=1526&clubId=21827"
+            },
+            {
+              "year": "Match #3 • 05/09/2026",
+              "title": "GSS vs. Ceylon CC   Garden State Strikers won by 4 Wickets",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Ceylon CC: 133/3 (16/16) • Garden State Strikers: 134/6 (15.5/16) (Cedar Brook Park)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumTwenty20/viewScorecard.do?matchId=1552&clubId=21827"
+            },
+            {
+              "year": "Match #4 • 05/16/2026",
+              "title": "GSS vs. Team 1983 A   Garden State Strikers won by 36 Runs",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 207/5 (20/20) • Team 1983 A: 171/8 (20/20) (Central NJ)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumTwenty20/viewScorecard.do?matchId=1571&clubId=21827"
+            },
+            {
+              "year": "Match #5 • 05/30/2026",
+              "title": "GSS vs. Jersey Indians   Garden State Strikers won by 7 Wickets",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Jersey Indians: 150/8 (20/20) • Garden State Strikers: 155/3 (16.4/20) (Robbinsville)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumTwenty20/viewScorecard.do?matchId=1597&clubId=21827"
+            },
+            {
+              "year": "Match #6 • 06/13/2026",
+              "title": "GSS vs. Crimson Hawks   Garden State Strikers won by 25 Runs",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 150/7 (20/20) • Crimson Hawks: 125/8 (20/20) (Cedar Brook Park)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumTwenty20/viewScorecard.do?matchId=1626&clubId=21827"
+            },
+            {
+              "year": "Match #7 • 06/20/2026",
+              "title": "GSS vs. Sonett US Cricket Club   Garden State Strikers won by 5 Wickets",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Sonett US Cricket Club: 88/10 (19.5/20) • Garden State Strikers: 91/5 (12.1/20) (Johnson 3)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumTwenty20/viewScorecard.do?matchId=1647&clubId=21827"
+            },
+            {
+              "year": "Match #8 • 06/27/2026",
+              "title": "GSS vs. Mumbai Gymkhana   Mumbai Gymkhana won by 55 Runs",
+              "tag": "League • LOSS",
+              "outcome": "LOSS",
+              "stage": "League",
+              "description": "Mumbai Gymkhana: 141/9 (20/20) • Garden State Strikers: 86/10 (19/20) (Cedar Brook Park)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumTwenty20/viewScorecard.do?matchId=1663&clubId=21827"
+            },
+            {
+              "year": "Match #9 • 07/11/2026",
+              "title": "GSS vs. Top Guns CC   Abandoned.",
+              "tag": "League • NR",
+              "outcome": "NR",
+              "stage": "League",
+              "description": "Garden State Strikers: 152/4 (15.4/20) • Top Guns CC: 0/0 (0/20) (Avenue K)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumTwenty20/viewScorecard.do?matchId=1683&clubId=21827"
+            },
+            {
+              "year": "Match #10 • 07/25/2026",
+              "title": "GSS vs. NJ Panthers   Garden State Strikers won by 35 Runs",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 165/7 (20/20) • NJ Panthers: 130/10 (18.4/20) (Consolata Park)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumTwenty20/viewScorecard.do?matchId=1722&clubId=21827"
+            },
+            {
+              "year": "Match #11 • 08/01/2026",
+              "title": "GSS vs. Shield Cricket Club   Forfeited. Winner: Garden State Strikers",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 0/0 (20/20) • Shield Cricket Club: 0/0 (20/20) (Watsessing)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumTwenty20/viewScorecard.do?matchId=1737&clubId=21827"
+            },
+            {
+              "year": "Match #12 • 08/08/2026",
+              "title": "GSS vs. Mumbai Gymkhana   Garden State Strikers won by 71 Runs",
+              "tag": "Qualifier 1 • WIN",
+              "outcome": "WIN",
+              "stage": "Qualifier 1",
+              "description": "Garden State Strikers: 131/8 (20/20) • Mumbai Gymkhana: 60/10 (15.4/20) (Howe)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumTwenty20/viewScorecard.do?matchId=1760&clubId=21827"
+            },
+            {
+              "year": "Match #13 • 08/21/2026",
+              "title": "GSS vs. NJ Panthers   NJ Panthers won by 43 Runs",
+              "tag": "Final • LOSS",
+              "outcome": "LOSS",
+              "stage": "Final",
+              "description": "NJ Panthers: 146/7 (20/20) • Garden State Strikers: 103/10 (19.1/20) (Weston - 1)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumTwenty20/viewScorecard.do?matchId=1773&clubId=21827"
+            }
+          ]
+        },
+        {
+          "id": "2024",
+          "label": "2024 (13 Games)",
+          "summary": "2024 USCL Summer T-20 • 9W – 2L – 2NR • Unbeaten 8-0-2 Regular Season • USCL Championship Runner-Up",
+          "highlightItem": {
+            "year": "2024 Summer T20",
+            "title": "USCL Summer T-20 Championship Finalists (9W – 2L – 2NR)",
+            "tag": "2024 Runner-Up • 8-0 Regular Season",
+            "description": "Posted an unbeaten 8-0-2 regular season in USCL Summer T-20 including a 160-run demolition of Edison Tigers (216/6 vs 56/10 on Jul 14) and defeated Nalwa The Great Warrior by 6 wickets in the Eliminator (140/4 vs 137/10 on Aug 4) to finish as 2024 USCL Runner-Up. Powered by Anbumani Mailathipathy (431 runs, HS 158, Avg 61.57) and Santosh Lalan (30 wickets, BBF 5/5, Econ 4.48)."
+          },
+          "items": [
+            {
+              "year": "Match #1 • 04/28/2024",
+              "title": "GSS vs. Edison Tigers   Garden State Strikers won by 50 Runs",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 207/5(20) Edison Tigers: 157/7(20)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=591&clubId=2153"
+            },
+            {
+              "year": "Match #2 • 05/05/2024",
+              "title": "GSS vs. Daredevils   Abandoned.",
+              "tag": "League • NR",
+              "outcome": "NR",
+              "stage": "League",
+              "description": "Daredevils: 107/10(18.5) Garden State Strikers: 51/1(5)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=595&clubId=2153"
+            },
+            {
+              "year": "Match #3 • 05/12/2024",
+              "title": "GSS vs. Nalwa The Great Warrior   Abandoned.",
+              "tag": "League • NR",
+              "outcome": "NR",
+              "stage": "League",
+              "description": "Nalwa The Great Warrior: 0/0(0)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=597&clubId=2153"
+            },
+            {
+              "year": "Match #4 • 05/18/2024",
+              "title": "GSS vs. United Cricket Club   Garden State Strikers won by 4 Wickets",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "United Cricket Club: 100/10(18.2) Garden State Strikers: 101/6(19.5)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=599&clubId=2153"
+            },
+            {
+              "year": "Match #5 • 06/08/2024",
+              "title": "GSS vs. United Cricket Club   Garden State Strikers won by 8 Runs",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 105/7(20) United Cricket Club: 97/8(20)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=603&clubId=2153"
+            },
+            {
+              "year": "Match #6 • 06/16/2024",
+              "title": "GSS vs. Daredevils   Garden State Strikers won by 7 Wickets",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Daredevils: 76/10(18.3) Garden State Strikers: 80/3(11.4)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=606&clubId=2153"
+            },
+            {
+              "year": "Match #7 • 06/23/2024",
+              "title": "GSS vs. NJ Wolverines   Garden State Strikers won by 2 Wickets",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "NJ Wolverines: 103/7(19.2) Garden State Strikers: 104/8(16)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=607&clubId=2153"
+            },
+            {
+              "year": "Match #8 • 06/30/2024",
+              "title": "GSS vs. Nalwa The Great Warrior   Garden State Strikers won by 7 Wickets",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Nalwa The Great Warrior: 117/10(14.1) Garden State Strikers: 118/3(12.5)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=611&clubId=2153"
+            },
+            {
+              "year": "Match #9 • 07/14/2024",
+              "title": "GSS vs. Edison Tigers   Garden State Strikers won by 160 Runs",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 216/6(20) Edison Tigers: 56/10(14.3)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=613&clubId=2153"
+            },
+            {
+              "year": "Match #10 • 07/21/2024",
+              "title": "GSS vs. NJ Wolverines   Garden State Strikers won by 11 Runs",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 163/6(18) NJ Wolverines: 152/7(18)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=617&clubId=2153"
+            },
+            {
+              "year": "Match #11 • 07/27/2024",
+              "title": "GSS vs. United Cricket Club   United Cricket Club won by 4 Wickets",
+              "tag": "Qualifier • LOSS",
+              "outcome": "LOSS",
+              "stage": "Qualifier",
+              "description": "Garden State Strikers: 133/9(20) United Cricket Club: 135/6(16.2)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=619&clubId=2153"
+            },
+            {
+              "year": "Match #12 • 08/04/2024",
+              "title": "GSS vs. Nalwa The Great Warrior   Garden State Strikers won by 6 Wickets",
+              "tag": "Eliminator • WIN",
+              "outcome": "WIN",
+              "stage": "Eliminator",
+              "description": "Nalwa The Great Warrior: 137/10(19.2) Garden State Strikers: 140/4(18.1)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=622&clubId=2153"
+            },
+            {
+              "year": "Match #13 • 08/11/2024",
+              "title": "GSS vs. United Cricket Club   United Cricket Club won by 45 Runs",
+              "tag": "Final • LOSS",
+              "outcome": "LOSS",
+              "stage": "Final",
+              "description": "United Cricket Club: 140/10(19.5) Garden State Strikers: 95/10(18.2)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=623&clubId=2153"
+            }
+          ]
+        },
+        {
+          "id": "2023",
+          "label": "2023 (14 Games)",
+          "summary": "2023 USCL Summer T-20 • 8W – 5L – 1NR • Debut GSS Summer Campaign • USCL Qualifier & Eliminator Playoffs",
+          "highlightItem": {
+            "year": "2023 Summer T20",
+            "title": "Inaugural GSS USCL Summer Playoff Run (8W – 5L – 1NR)",
+            "tag": "USCL Playoffs • 14 Matches",
+            "description": "In our debut summer under the Garden State Strikers banner, GSS went 8-3-1 in regular-season play highlighted by posting 225/3 to beat United CC by 13 runs (Jun 18) and bowling out United CC for 77 (Jul 22) and Kings XI for 65 (Aug 12) to reach the Qualifier & Eliminator playoffs. Santosh Lalan led with 381 runs (HS 103) and 15 wickets."
+          },
+          "items": [
+            {
+              "year": "Match #1 • 04/22/2023",
+              "title": "GSS vs. Kings XI   Kings XI won by 35 Runs",
+              "tag": "League • LOSS",
+              "outcome": "LOSS",
+              "stage": "League",
+              "description": "Kings XI: 192/6(20) Garden State Strikers: 157/9(19.4)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=505&clubId=2153"
+            },
+            {
+              "year": "Match #2 • 04/30/2023",
+              "title": "GSS vs. Jersey Lions   Abandoned.",
+              "tag": "League • NR",
+              "outcome": "NR",
+              "stage": "League",
+              "description": "Garden State Strikers: 0/0(0)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=509&clubId=2153"
+            },
+            {
+              "year": "Match #3 • 05/07/2023",
+              "title": "GSS vs. Daredevils   Garden State Strikers won by 49 Runs",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 154/6(20) Daredevils: 105/10(19.4)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=513&clubId=2153"
+            },
+            {
+              "year": "Match #4 • 05/14/2023",
+              "title": "GSS vs. Jersey Lions   Garden State Strikers won by 44 Runs",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 183/4(20) Jersey Lions: 139/7(20)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=516&clubId=2153"
+            },
+            {
+              "year": "Match #5 • 05/21/2023",
+              "title": "GSS vs. Edison Tigers   Edison Tigers won by 7 Wickets",
+              "tag": "League • LOSS",
+              "outcome": "LOSS",
+              "stage": "League",
+              "description": "Garden State Strikers: 146/7(20) Edison Tigers: 147/3(18.2)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=519&clubId=2153"
+            },
+            {
+              "year": "Match #6 • 06/18/2023",
+              "title": "GSS vs. United Cricket Club   Garden State Strikers won by 13 Runs",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 225/3(20) United Cricket Club: 212/4(20)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=527&clubId=2153"
+            },
+            {
+              "year": "Match #7 • 06/25/2023",
+              "title": "GSS vs. Daredevils   Garden State Strikers won by 7 Wickets",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Daredevils: 125/5(20) Garden State Strikers: 127/3(13.3)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=529&clubId=2153"
+            },
+            {
+              "year": "Match #8 • 07/01/2023",
+              "title": "GSS vs. Philadelphia Warhawks   Philadelphia Warhawks won by 61 Runs",
+              "tag": "League • LOSS",
+              "outcome": "LOSS",
+              "stage": "League",
+              "description": "Philadelphia Warhawks: 154/8(20) Garden State Strikers: 93/10(17.5)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=530&clubId=2153"
+            },
+            {
+              "year": "Match #9 • 07/09/2023",
+              "title": "GSS vs. Edison Tigers   Garden State Strikers won by 6 Wickets",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Edison Tigers: 134/8(20) Garden State Strikers: 135/4(16.2)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=531&clubId=2153"
+            },
+            {
+              "year": "Match #10 • 07/22/2023",
+              "title": "GSS vs. United Cricket Club   Garden State Strikers won by 5 Wickets",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "United Cricket Club: 77/10(19.3) Garden State Strikers: 78/5(17.4)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=537&clubId=2153"
+            },
+            {
+              "year": "Match #11 • 07/29/2023",
+              "title": "GSS vs. Philadelphia Warhawks   Garden State Strikers won by 3 Wickets",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Philadelphia Warhawks: 108/10(19.2) Garden State Strikers: 109/7(18.1)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=540&clubId=2153"
+            },
+            {
+              "year": "Match #12 • 08/12/2023",
+              "title": "GSS vs. Kings XI   Garden State Strikers won by 74 Runs",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 139/10(20) Kings XI: 65/10(15.1)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=544&clubId=2153"
+            },
+            {
+              "year": "Match #13 • 08/27/2023",
+              "title": "GSS vs. Philadelphia Warhawks   Philadelphia Warhawks won by 9 Wickets",
+              "tag": "Qualifier • LOSS",
+              "outcome": "LOSS",
+              "stage": "Qualifier",
+              "description": "Garden State Strikers: 136/10(19.5) Philadelphia Warhawks: 140/1(11)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=547&clubId=2153"
+            },
+            {
+              "year": "Match #14 • 09/16/2023",
+              "title": "GSS vs. United Cricket Club   United Cricket Club won by 99 Runs",
+              "tag": "Eliminator • LOSS",
+              "outcome": "LOSS",
+              "stage": "Eliminator",
+              "description": "United Cricket Club: 167/5(20) Garden State Strikers: 68/10(15.1)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=552&clubId=2153"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fall-t20",
+      "label": "Fall T20",
+      "subtitle": "2024 USCL Fall T-20 & 2026 Millennium Cricket League (MCL Elite) Fall T20 Campaigns",
+      "items": [
+        {
+          "year": "2024 Fall T20",
+          "title": "USCL Fall T-20 Winning Finish (3W – 2L – 1NR)",
+          "tag": "2024 USCL Fall T-20 • 6 Matches",
+          "description": "Bowled out Edison Tigers for 112 (chasing 118/1 in 11.1 overs for a 9-wicket win on Sep 15), restricted Daredevils to 125/7 (chasing 126/5 in 17 overs for a 5-wicket win on Oct 6), and closed our final USCL season on a winning streak against Bergen Tigers CC paced by Prashant Madhukar (93 runs) and Asif Mohammed (5 wkts, Econ 2.86)."
+        },
+        {
+          "year": "2026 Fall T20",
+          "title": "2026 MCL Fall T20   MCL Elite Unbeaten Regular Season & Quarter Finalists (5W – 1L – 1NR)",
+          "tag": "MCL Elite Playoffs • 7 Matches",
+          "description": "Roared through the 2026 Millennium Cricket League (MCL Elite) Fall T20 regular season unbeaten (5W-0L-1NR) opening with a 111-run rout of Canopus CC (186/3 vs 75/10), edging Rebels CC by 14 runs, defending 113 in a 3-run thriller vs Mumbai Gymkhana, and defeating Wolverines and Jersey Bulls (by 26 runs) before a nail-biting 1-wicket Quarter Final finish against Mumbai Gymkhana (123 vs 124/9)."
+        }
+      ],
+      "yearFilters": [
+        {
+          "id": "overview",
+          "label": "All Years (Overview)",
+          "summary": "2024 USCL Fall T-20 (6 Games) & 2026 MCL Fall T20   MCL Elite (7 Games) • 8W – 3L – 2NR",
+          "items": [
+            {
+              "year": "2024 Fall T20",
+              "title": "USCL Fall T-20 Winning Finish (3W – 2L – 1NR)",
+              "tag": "2024 USCL Fall T-20 • 6 Matches",
+              "description": "Bowled out Edison Tigers for 112 (chasing 118/1 in 11.1 overs for a 9-wicket win on Sep 15), restricted Daredevils to 125/7 (chasing 126/5 in 17 overs for a 5-wicket win on Oct 6), and closed our final USCL season on a winning streak against Bergen Tigers CC paced by Prashant Madhukar (93 runs) and Asif Mohammed (5 wkts, Econ 2.86)."
+            },
+            {
+              "year": "2026 Fall T20",
+              "title": "2026 MCL Fall T20   MCL Elite Unbeaten Regular Season & Quarter Finalists (5W – 1L – 1NR)",
+              "tag": "MCL Elite Playoffs • 7 Matches",
+              "description": "Roared through the 2026 Millennium Cricket League (MCL Elite) Fall T20 regular season unbeaten (5W-0L-1NR) opening with a 111-run rout of Canopus CC (186/3 vs 75/10), edging Rebels CC by 14 runs, defending 113 in a 3-run thriller vs Mumbai Gymkhana, and defeating Wolverines and Jersey Bulls (by 26 runs) before a nail-biting 1-wicket Quarter Final finish against Mumbai Gymkhana (123 vs 124/9)."
+            }
+          ]
+        },
+        {
+          "id": "2026",
+          "label": "2026 (7 Games)",
+          "summary": "2026 MCL Fall T20 (MCL Elite) • 5W – 1L – 1NR • Unbeaten 5-0-1 Regular Season • Quarter Finalists",
+          "highlightItem": {
+            "year": "2026 Fall T20",
+            "title": "2026 MCL Fall T20   MCL Elite Unbeaten Regular Season & Quarter Finalists (5W – 1L – 1NR)",
+            "tag": "MCL Elite Playoffs • 7 Matches",
+            "description": "Roared through the 2026 Millennium Cricket League (MCL Elite) Fall T20 regular season unbeaten (5W-0L-1NR) opening with a 111-run rout of Canopus CC (186/3 vs 75/10), edging Rebels CC by 14 runs, defending 113 in a 3-run thriller vs Mumbai Gymkhana, and defeating Wolverines and Jersey Bulls (by 26 runs) before a nail-biting 1-wicket Quarter Final finish against Mumbai Gymkhana (123 vs 124/9)."
+          },
+          "items": [
+            {
+              "year": "Match #1 • 08/29/2026",
+              "title": "GSS vs. Canopus CC   Garden State Strikers won by 111 Runs",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 186/3(19.5) • Canopus CC: 75/10(19.3)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumForty40/viewScorecard.do?matchId=8909&clubId=21870"
+            },
+            {
+              "year": "Match #2 • 09/12/2026",
+              "title": "GSS vs. Rebels CC   Garden State Strikers won by 14 Runs",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 145/7(20) • Rebels CC: 131/10(18.5)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumForty40/viewScorecard.do?matchId=8938&clubId=21870"
+            },
+            {
+              "year": "Match #3 • 09/19/2026",
+              "title": "GSS vs. Mumbai Gymkhana   Garden State Strikers won by 3 Runs",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 113/10(19.2) • Mumbai Gymkhana: 110/10(17.5)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumForty40/viewScorecard.do?matchId=8966&clubId=21870"
+            },
+            {
+              "year": "Match #4 • 09/26/2026",
+              "title": "GSS vs. NJ Hawks   Abandoned.",
+              "tag": "League • NR",
+              "outcome": "NR",
+              "stage": "League",
+              "description": "Garden State Strikers: 0/0(0)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumForty40/viewScorecard.do?matchId=8987&clubId=21870"
+            },
+            {
+              "year": "Match #5 • 10/03/2026",
+              "title": "GSS vs. Wolverines   Forfeited. Winner: Garden State Strikers",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 0/0(0)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumForty40/viewScorecard.do?matchId=9017&clubId=21870"
+            },
+            {
+              "year": "Match #6 • 10/10/2026",
+              "title": "GSS vs. Jersey Bulls   Garden State Strikers won by 26 Runs",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 119/10(18.5) • Jersey Bulls: 93/10(19)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumForty40/viewScorecard.do?matchId=9027&clubId=21870"
+            },
+            {
+              "year": "Match #7 • 10/17/2026",
+              "title": "GSS vs. Mumbai Gymkhana   Mumbai Gymkhana won by 1 Wicket",
+              "tag": "Quarter Final • LOSS",
+              "outcome": "LOSS",
+              "stage": "Quarter Final",
+              "description": "Garden State Strikers: 123/10(19) • Mumbai Gymkhana: 124/9(20)",
+              "scorecardUrl": "https://cricclubs.com/MillenniumForty40/viewScorecard.do?matchId=9051&clubId=21870"
+            }
+          ]
+        },
+        {
+          "id": "2024",
+          "label": "2024 (6 Games)",
+          "summary": "2024 USCL Fall T-20 • 3W – 2L – 1NR • Back-to-Back Wins Over Daredevils & Bergen Tigers CC",
+          "highlightItem": {
+            "year": "2024 Fall T20",
+            "title": "USCL Fall T-20 Winning Finish (3W – 2L – 1NR)",
+            "tag": "2024 USCL Fall T-20 • 6 Matches",
+            "description": "Bowled out Edison Tigers for 112 (chasing 118/1 in 11.1 overs for a 9-wicket win on Sep 15), restricted Daredevils to 125/7 (chasing 126/5 in 17 overs for a 5-wicket win on Oct 6), and closed our final USCL season on a winning streak against Bergen Tigers CC paced by Prashant Madhukar (93 runs) and Asif Mohammed (5 wkts, Econ 2.86)."
+          },
+          "items": [
+            {
+              "year": "Match #1 • 09/07/2024",
+              "title": "GSS vs. NJ Wolverines   NJ Wolverines won by 9 Wickets",
+              "tag": "League • LOSS",
+              "outcome": "LOSS",
+              "stage": "League",
+              "description": "Garden State Strikers: 63/9(20) NJ Wolverines: 64/1(9)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=629&clubId=2153"
+            },
+            {
+              "year": "Match #2 • 09/15/2024",
+              "title": "GSS vs. Edison Tigers   Garden State Strikers won by 9 Wickets",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Edison Tigers: 112/10(19.2) Garden State Strikers: 118/1(11.1)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=637&clubId=2153"
+            },
+            {
+              "year": "Match #3 • 09/22/2024",
+              "title": "GSS vs. NJ Kings   NJ Kings won by 21 Runs",
+              "tag": "League • LOSS",
+              "outcome": "LOSS",
+              "stage": "League",
+              "description": "NJ Kings: 152/8(19) Garden State Strikers: 131/7(19)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=645&clubId=2153"
+            },
+            {
+              "year": "Match #4 • 09/29/2024",
+              "title": "GSS vs. Nalwa The Great Warrior   Abandoned.",
+              "tag": "League • NR",
+              "outcome": "NR",
+              "stage": "League",
+              "description": "Garden State Strikers: 0/0(0)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=651&clubId=2153"
+            },
+            {
+              "year": "Match #5 • 10/06/2024",
+              "title": "GSS vs. Daredevils   Garden State Strikers won by 5 Wickets",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Daredevils: 125/7(20) Garden State Strikers: 126/5(17)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=661&clubId=2153"
+            },
+            {
+              "year": "Match #6 • 10/13/2024",
+              "title": "GSS vs. Bergen Tigers CC   Forfeited. Winner: Garden State Strikers",
+              "tag": "League • WIN",
+              "outcome": "WIN",
+              "stage": "League",
+              "description": "Garden State Strikers: 0/0(0)",
+              "scorecardUrl": "https://cricclubs.com/USCL/viewScorecard.do?matchId=654&clubId=2153"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fallSeason": {
+    "year": 2026,
+    "name": "2026 MCL Fall T20 - MCL Elite Division",
+    "status": "Unbeaten 5-0-1 Regular Season • Quarter Finalists",
+    "league": "Millennium Cricket League • MCL Elite",
+    "record": {
+      "played": 7,
+      "won": 5,
+      "lost": 1,
+      "noResult": 1,
+      "points": 22,
+      "standing": "MCL Elite Quarter Finalists (100% League Win Rate)",
+      "netRunRate": "+1.8450"
+    },
+    "highlight": "111-Run Opener Win vs Canopus CC (186/3 vs 75/10) • 3-Run Thriller vs Mumbai Gymkhana (113 vs 110) • 26-Run Win vs Jersey Bulls",
+    "captain": "Anil Sidaganahalli",
+    "viceCaptain": "Santosh Lalan"
+  }
+}

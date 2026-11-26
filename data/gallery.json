@@ -1,0 +1,62 @@
+[
+  {
+    "id": "match-01",
+    "title": "252/7 Season Opener Explosion vs NJ Revenants",
+    "caption": "Garden State Strikers pile up 252/7 in 20 overs at Cedar Brook Park and restrict NJ Revenants to 107/9 for a 145-run opening statement.",
+    "season": "2026 League",
+    "location": "Cedar Brook Park • Plainfield, NJ",
+    "date": "Apr 18, 2026",
+    "aspectRatio": "4 / 3",
+    "src": "./assets/gallery/match-01.webp"
+  },
+  {
+    "id": "match-02",
+    "title": "207/5 Power Batting Display vs Team 1983 A",
+    "caption": "Prabakaran Jayabalan and Gurjeet Sandhu lead the charge as GSS posts 207/5 and defends it by 36 runs to go 4-0 in Group B.",
+    "season": "2026 League",
+    "location": "Millennium Twenty20 • Gold Division",
+    "date": "May 16, 2026",
+    "aspectRatio": "1 / 1",
+    "src": "./assets/gallery/match-02.webp"
+  },
+  {
+    "id": "match-03",
+    "title": "Clinical 7-Wicket Chase vs Jersey Indians at Robbinsville",
+    "caption": "Chasing 151 in the afternoon session at Robbinsville, the Strikers race to 155/3 in just 16.4 overs with 7 wickets in hand.",
+    "season": "2026 League",
+    "location": "Robbinsville Ground • NJ",
+    "date": "May 30, 2026",
+    "aspectRatio": "4 / 3",
+    "src": "./assets/gallery/match-03.webp"
+  },
+  {
+    "id": "match-04",
+    "title": "Bowling Out Sonett US CC for 88 at Johnson 3",
+    "caption": "Santosh Lalan, Amit Kumar, and Mandeep Singh dismantle Sonett US Cricket Club for 88 before wrapping up a 5-wicket win in 12.1 overs.",
+    "season": "2026 League",
+    "location": "Johnson Park Pitch 3 • Piscataway, NJ",
+    "date": "Jun 20, 2026",
+    "aspectRatio": "1 / 1",
+    "src": "./assets/gallery/match-04.webp"
+  },
+  {
+    "id": "match-05",
+    "title": "Qualifier 1 Masterclass: Mumbai Gymkhana All Out for 60",
+    "caption": "Under playoff pressure at Howe Ground, GSS defends 131/8 by skittling #1 seed Mumbai Gymkhana for 60 in 15.4 overs to win by 71 runs.",
+    "season": "2026 Playoffs",
+    "location": "Howe Ground • Somerset, NJ",
+    "date": "Aug 08, 2026",
+    "aspectRatio": "4 / 3",
+    "src": "./assets/gallery/match-05.webp"
+  },
+  {
+    "id": "match-06",
+    "title": "Gold Division Championship Finalists (10W-2L-1NR Season)",
+    "caption": "Garden State Strikers celebrate a dominant 2026 Summer T20 Saturday Gold Division campaign finishing as Runner-Up with a +1.7142 NRR.",
+    "season": "2026 Playoffs",
+    "location": "Weston - 1 • Manville, NJ",
+    "date": "Aug 21, 2026",
+    "aspectRatio": "1 / 1",
+    "src": "./assets/gallery/match-06.webp"
+  }
+]

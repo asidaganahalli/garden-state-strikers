@@ -1,0 +1,6 @@
+# Temporary raw extraction dumps & OS files
+gss_uscl_data.json
+.DS_Store
+Thumbs.db
+*.tmp
+*.log

@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "prabakaran-jayabalan",
+    "cricclubsId": "2787427",
+    "name": "Prabakaran Jayabalan",
+    "number": "00",
+    "role": "Keeper",
+    "status": "current",
+    "tenure": "2024 – Present",
+    "badge": "#1 Team MVP",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Wicketkeeper • Right-Arm Medium",
+    "photo": "./assets/players/prabakaran-jayabalan.webp",
+    "bio": "2026 Millennium T20: 12 Mat, 470 Runs, 0 Wkts • 2024 USCL Fall T20: 3 Mat, 17 Runs, 1 Wkts • 2024 USCL Summer T20: 7 Mat, 247 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2024 – Present): 22 Matches • 734 Runs • 1 Wickets across 3 campaign(s). CricClubs ID #2787427.",
+    "highlightImage": "./assets/gallery/match-01.webp",
+    "stats": {
+      "matches": 22,
+      "runs": 734,
+      "wickets": 1
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=2787427&clubId=21827",
+    "socials": {
+      "cricclubs": "2787427"
+    }
+  },
+  {
+    "id": "santosh-lalan",
+    "cricclubsId": "1638422",
+    "name": "Santosh Lalan",
+    "number": "99",
+    "role": "All-Rounder",
+    "status": "current",
+    "tenure": "2023 – Present",
+    "badge": "Vice-Captain",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Fast",
+    "photo": "./assets/players/santosh-lalan.webp",
+    "bio": "2026 Millennium T20: 11 Mat, 94 Runs, 15 Wkts • 2024 USCL Fall T20: 3 Mat, 86 Runs, 4 Wkts • 2024 USCL Summer T20: 12 Mat, 115 Runs, 30 Wkts • 2023 USCL Summer T20: 13 Mat, 381 Runs, 15 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – Present): 39 Matches • 676 Runs • 64 Wickets across 4 campaign(s). CricClubs ID #1638422.",
+    "highlightImage": "./assets/gallery/match-02.webp",
+    "stats": {
+      "matches": 39,
+      "runs": 676,
+      "wickets": 64
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=1638422&clubId=21827",
+    "socials": {
+      "cricclubs": "1638422"
+    }
+  },
+  {
+    "id": "mandeep-singh",
+    "cricclubsId": "2013388",
+    "name": "Mandeep Singh",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "current",
+    "tenure": "2023 – Present",
+    "badge": "#3 Team MVP",
+    "battingStyle": "Right-Hand Top-Order Bat",
+    "bowlingStyle": "Left-Arm Medium",
+    "photo": "./assets/players/mandeep-singh.webp",
+    "bio": "2026 Millennium T20: 11 Mat, 123 Runs, 11 Wkts • 2024 USCL Fall T20: 3 Mat, 34 Runs, 2 Wkts • 2024 USCL Summer T20: 6 Mat, 66 Runs, 9 Wkts • 2023 USCL Summer T20: 6 Mat, 97 Runs, 7 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – Present): 26 Matches • 320 Runs • 29 Wickets across 4 campaign(s). CricClubs ID #2013388.",
+    "highlightImage": "./assets/gallery/match-03.webp",
+    "stats": {
+      "matches": 26,
+      "runs": 320,
+      "wickets": 29
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=2013388&clubId=21827",
+    "socials": {
+      "cricclubs": "2013388"
+    }
+  },
+  {
+    "id": "anbumani-mailathipathy",
+    "cricclubsId": "3248696",
+    "name": "Anbumani Mailathipathy",
+    "number": "14",
+    "role": "All-Rounder",
+    "status": "current",
+    "tenure": "2023 – Present",
+    "badge": "#4 Team MVP",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/anbumani-mailathipathy.webp",
+    "bio": "2026 Millennium T20: 9 Mat, 182 Runs, 6 Wkts • 2024 USCL Fall T20: 3 Mat, 38 Runs, 5 Wkts • 2024 USCL Summer T20: 12 Mat, 431 Runs, 15 Wkts • 2023 USCL Summer T20: 10 Mat, 154 Runs, 12 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – Present): 34 Matches • 805 Runs • 38 Wickets across 4 campaign(s). CricClubs ID #3248696.",
+    "highlightImage": "./assets/gallery/match-04.webp",
+    "stats": {
+      "matches": 34,
+      "runs": 805,
+      "wickets": 38
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=3248696&clubId=21827",
+    "socials": {
+      "cricclubs": "3248696"
+    }
+  },
+  {
+    "id": "gurjeet-sandhu",
+    "cricclubsId": "2886775",
+    "name": "Gurjeet Sandhu",
+    "number": "09",
+    "role": "All-Rounder",
+    "status": "current",
+    "tenure": "2026 – Present",
+    "badge": "Power Hitter",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/gurjeet-sandhu.webp",
+    "bio": "2026 Millennium T20: 11 Mat, 247 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2026 – Present): 11 Matches • 247 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #2886775.",
+    "highlightImage": "./assets/gallery/match-05.webp",
+    "stats": {
+      "matches": 11,
+      "runs": 247,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=2886775&clubId=21827",
+    "socials": {
+      "cricclubs": "2886775"
+    }
+  },
+  {
+    "id": "amit-kumar",
+    "cricclubsId": "3502383",
+    "name": "Amit Kumar",
+    "number": "00",
+    "role": "Bowler",
+    "status": "current",
+    "tenure": "2024 – Present",
+    "badge": "Spin Spearhead",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Leg Spin",
+    "photo": "./assets/players/amit-kumar.webp",
+    "bio": "2026 Millennium T20: 9 Mat, 0 Runs, 11 Wkts • 2024 USCL Fall T20: 2 Mat, 2 Runs, 2 Wkts • 2024 USCL Summer T20: 1 Mat, 0 Runs, 2 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2024 – Present): 12 Matches • 2 Runs • 15 Wickets across 3 campaign(s). CricClubs ID #3502383.",
+    "highlightImage": "./assets/gallery/match-06.webp",
+    "stats": {
+      "matches": 12,
+      "runs": 2,
+      "wickets": 15
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=3502383&clubId=21827",
+    "socials": {
+      "cricclubs": "3502383"
+    }
+  },
+  {
+    "id": "waqas-akhtar",
+    "cricclubsId": "258921",
+    "name": "Waqas Akhtar",
+    "number": "25",
+    "role": "Batter",
+    "status": "current",
+    "tenure": "2026 – Present",
+    "badge": "5W Haul Hero",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium-Fast",
+    "photo": "./assets/players/waqas-akhtar.webp",
+    "bio": "2026 Millennium T20: 5 Mat, 62 Runs, 7 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2026 – Present): 5 Matches • 62 Runs • 7 Wickets across 1 campaign(s). CricClubs ID #258921.",
+    "highlightImage": "./assets/gallery/match-01.webp",
+    "stats": {
+      "matches": 5,
+      "runs": 62,
+      "wickets": 7
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=258921&clubId=21827",
+    "socials": {
+      "cricclubs": "258921"
+    }
+  },
+  {
+    "id": "gurmeet-dadlani",
+    "cricclubsId": "2031909",
+    "name": "Gurmeet Dadlani",
+    "number": "00",
+    "role": "Batter",
+    "status": "current",
+    "tenure": "2023 – Present",
+    "badge": "2026 Active XI",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Change Bowler",
+    "photo": null,
+    "bio": "2026 Millennium T20: 7 Mat, 46 Runs, 7 Wkts • 2024 USCL Fall T20: 1 Mat, 5 Runs, 0 Wkts • 2024 USCL Summer T20: 5 Mat, 70 Runs, 10 Wkts • 2023 USCL Summer T20: 1 Mat, 21 Runs, 3 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – Present): 14 Matches • 142 Runs • 20 Wickets across 4 campaign(s). CricClubs ID #2031909.",
+    "highlightImage": "./assets/gallery/match-02.webp",
+    "stats": {
+      "matches": 14,
+      "runs": 142,
+      "wickets": 20
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=2031909&clubId=21827",
+    "socials": {
+      "cricclubs": "2031909"
+    }
+  },
+  {
+    "id": "asif-mohammed",
+    "cricclubsId": "3560477",
+    "name": "Asif Mohammed",
+    "number": "06",
+    "role": "Bowler",
+    "status": "current",
+    "tenure": "2024 – Present",
+    "badge": "Workhorse Pacer",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Fast-Medium",
+    "photo": "./assets/players/asif-mohammed.webp",
+    "bio": "2026 Millennium T20: 9 Mat, 12 Runs, 8 Wkts • 2024 USCL Fall T20: 2 Mat, 0 Runs, 5 Wkts • 2024 USCL Summer T20: 7 Mat, 36 Runs, 9 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2024 – Present): 18 Matches • 48 Runs • 22 Wickets across 3 campaign(s). CricClubs ID #3560477.",
+    "highlightImage": "./assets/gallery/match-03.webp",
+    "stats": {
+      "matches": 18,
+      "runs": 48,
+      "wickets": 22
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=3560477&clubId=21827",
+    "socials": {
+      "cricclubs": "3560477"
+    }
+  },
+  {
+    "id": "prabhjot-meet-singh",
+    "cricclubsId": "3677960",
+    "name": "Prabhjot (Meet) Singh",
+    "number": "00",
+    "role": "Batter",
+    "status": "current",
+    "tenure": "2024 – Present",
+    "badge": "Strike Batter",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/prabhjot-meet-singh.webp",
+    "bio": "2026 Millennium T20: 7 Mat, 133 Runs, 0 Wkts • 2024 USCL Fall T20: 1 Mat, 1 Runs, 1 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2024 – Present): 8 Matches • 134 Runs • 1 Wickets across 2 campaign(s). CricClubs ID #3677960.",
+    "highlightImage": "./assets/gallery/match-04.webp",
+    "stats": {
+      "matches": 8,
+      "runs": 134,
+      "wickets": 1
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=3677960&clubId=21827",
+    "socials": {
+      "cricclubs": "3677960"
+    }
+  },
+  {
+    "id": "ashish-reddy-majjigapu",
+    "cricclubsId": "5206722",
+    "name": "Ashish Reddy Majjigapu",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "current",
+    "tenure": "2026 – Present",
+    "badge": "2026 Active XI",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/ashish-reddy-majjigapu.webp",
+    "bio": "2026 Millennium T20: 6 Mat, 0 Runs, 6 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2026 – Present): 6 Matches • 0 Runs • 6 Wickets across 1 campaign(s). CricClubs ID #5206722.",
+    "highlightImage": "./assets/gallery/match-05.webp",
+    "stats": {
+      "matches": 6,
+      "runs": 0,
+      "wickets": 6
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=5206722&clubId=21827",
+    "socials": {
+      "cricclubs": "5206722"
+    }
+  },
+  {
+    "id": "gaurish-potireddi",
+    "cricclubsId": "764255",
+    "name": "Gaurish Potireddi",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "current",
+    "tenure": "2026 – Present",
+    "badge": "2026 Active XI",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/gaurish-potireddi.webp",
+    "bio": "2026 Millennium T20: 4 Mat, 77 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2026 – Present): 4 Matches • 77 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #764255.",
+    "highlightImage": "./assets/gallery/match-06.webp",
+    "stats": {
+      "matches": 4,
+      "runs": 77,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=764255&clubId=21827",
+    "socials": {
+      "cricclubs": "764255"
+    }
+  },
+  {
+    "id": "manjinder-singh",
+    "cricclubsId": "2968070",
+    "name": "Manjinder Singh",
+    "number": "16",
+    "role": "All-Rounder",
+    "status": "current",
+    "tenure": "2026 – Present",
+    "badge": "2026 Active XI",
+    "battingStyle": "Right-Hand Top-Order Bat",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/manjinder-singh.webp",
+    "bio": "2026 Millennium T20: 7 Mat, 72 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2026 – Present): 7 Matches • 72 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #2968070.",
+    "highlightImage": "./assets/gallery/match-01.webp",
+    "stats": {
+      "matches": 7,
+      "runs": 72,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=2968070&clubId=21827",
+    "socials": {
+      "cricclubs": "2968070"
+    }
+  },
+  {
+    "id": "sasmit-chakraborty",
+    "cricclubsId": "1146370",
+    "name": "Sasmit Chakraborty",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "current",
+    "tenure": "2023 – Present",
+    "badge": "2026 Active XI",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/sasmit-chakraborty.webp",
+    "bio": "2026 Millennium T20: 3 Mat, 29 Runs, 2 Wkts • 2024 USCL Fall T20: 2 Mat, 40 Runs, 2 Wkts • 2024 USCL Summer T20: 8 Mat, 29 Runs, 8 Wkts • 2023 USCL Summer T20: 9 Mat, 132 Runs, 4 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – Present): 22 Matches • 230 Runs • 16 Wickets across 4 campaign(s). CricClubs ID #1146370.",
+    "highlightImage": "./assets/gallery/match-02.webp",
+    "stats": {
+      "matches": 22,
+      "runs": 230,
+      "wickets": 16
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=1146370&clubId=21827",
+    "socials": {
+      "cricclubs": "1146370"
+    }
+  },
+  {
+    "id": "anil-sidaganahalli",
+    "cricclubsId": "827288",
+    "name": "Anil Sidaganahalli",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "current",
+    "tenure": "2023 – Present",
+    "badge": "Captain",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/anil-sidaganahalli.webp",
+    "bio": "2026 Millennium T20: 11 Mat, 28 Runs, 2 Wkts • 2024 USCL Fall T20: 2 Mat, 0 Runs, 0 Wkts • 2024 USCL Summer T20: 11 Mat, 55 Runs, 0 Wkts • 2023 USCL Summer T20: 12 Mat, 83 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – Present): 36 Matches • 166 Runs • 2 Wickets across 4 campaign(s). CricClubs ID #827288.",
+    "highlightImage": "./assets/gallery/match-03.webp",
+    "stats": {
+      "matches": 36,
+      "runs": 166,
+      "wickets": 2
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=827288&clubId=21827",
+    "socials": {
+      "cricclubs": "827288"
+    }
+  },
+  {
+    "id": "manoj-bagul",
+    "cricclubsId": "1645241",
+    "name": "Manoj Bagul",
+    "number": "17",
+    "role": "Bowler",
+    "status": "current",
+    "tenure": "2026 – Present",
+    "badge": "2026 Active XI",
+    "battingStyle": "Right-Hand Top-Order Bat",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/manoj-bagul.webp",
+    "bio": "2026 Millennium T20: 1 Mat, 0 Runs, 3 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2026 – Present): 1 Matches • 0 Runs • 3 Wickets across 1 campaign(s). CricClubs ID #1645241.",
+    "highlightImage": "./assets/gallery/match-04.webp",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "wickets": 3
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=1645241&clubId=21827",
+    "socials": {
+      "cricclubs": "1645241"
+    }
+  },
+  {
+    "id": "prashant-madhukar",
+    "cricclubsId": "1655734",
+    "name": "Prashant Madhukar",
+    "number": "00",
+    "role": "Batter",
+    "status": "current",
+    "tenure": "2023 – Present",
+    "badge": "2026 Active XI",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Off-Spin",
+    "photo": "./assets/players/prashant-madhukar.webp",
+    "bio": "2026 Millennium T20: 4 Mat, 35 Runs, 0 Wkts • 2024 USCL Fall T20: 4 Mat, 93 Runs, 0 Wkts • 2024 USCL Summer T20: 8 Mat, 47 Runs, 0 Wkts • 2023 USCL Summer T20: 13 Mat, 152 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – Present): 29 Matches • 327 Runs • 0 Wickets across 4 campaign(s). CricClubs ID #1655734.",
+    "highlightImage": "./assets/gallery/match-05.webp",
+    "stats": {
+      "matches": 29,
+      "runs": 327,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=1655734&clubId=21827",
+    "socials": {
+      "cricclubs": "1655734"
+    }
+  },
+  {
+    "id": "sunny-thakkar",
+    "cricclubsId": "2053704",
+    "name": "Sunny Thakkar",
+    "number": "13",
+    "role": "Keeper",
+    "status": "current",
+    "tenure": "2023 – Present",
+    "badge": "Wicketkeeper",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Designated Wicketkeeper",
+    "photo": "./assets/players/sunny-thakkar.webp",
+    "bio": "2026 Millennium T20: 5 Mat, 34 Runs, 0 Wkts • 2024 USCL Fall T20: 3 Mat, 18 Runs, 0 Wkts • 2024 USCL Summer T20: 10 Mat, 136 Runs, 0 Wkts • 2023 USCL Summer T20: 9 Mat, 147 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – Present): 27 Matches • 335 Runs • 0 Wickets across 4 campaign(s). CricClubs ID #2053704.",
+    "highlightImage": "./assets/gallery/match-06.webp",
+    "stats": {
+      "matches": 27,
+      "runs": 335,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=2053704&clubId=21827",
+    "socials": {
+      "cricclubs": "2053704"
+    }
+  },
+  {
+    "id": "priyesh-bhishnurkar",
+    "cricclubsId": "3364635",
+    "name": "Priyesh Bhishnurkar",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "current",
+    "tenure": "2023 – Present",
+    "badge": "2026 Active XI",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/priyesh-bhishnurkar.webp",
+    "bio": "2026 Millennium T20: 1 Mat, 9 Runs, 1 Wkts • 2024 USCL Fall T20: 1 Mat, 15 Runs, 1 Wkts • 2024 USCL Summer T20: 4 Mat, 47 Runs, 4 Wkts • 2023 USCL Summer T20: 8 Mat, 171 Runs, 4 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – Present): 14 Matches • 242 Runs • 10 Wickets across 4 campaign(s). CricClubs ID #3364635.",
+    "highlightImage": "./assets/gallery/match-01.webp",
+    "stats": {
+      "matches": 14,
+      "runs": 242,
+      "wickets": 10
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=3364635&clubId=21827",
+    "socials": {
+      "cricclubs": "3364635"
+    }
+  },
+  {
+    "id": "gaurav-bajaj",
+    "cricclubsId": "828133",
+    "name": "Gaurav Bajaj",
+    "number": "08",
+    "role": "All-Rounder",
+    "status": "current",
+    "tenure": "2026 – Present",
+    "badge": "2026 Active XI",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Leg Spin",
+    "photo": null,
+    "bio": "2026 Millennium T20: 2 Mat, 1 Runs, 1 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2026 – Present): 2 Matches • 1 Runs • 1 Wickets across 1 campaign(s). CricClubs ID #828133.",
+    "highlightImage": "./assets/gallery/match-02.webp",
+    "stats": {
+      "matches": 2,
+      "runs": 1,
+      "wickets": 1
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=828133&clubId=21827",
+    "socials": {
+      "cricclubs": "828133"
+    }
+  },
+  {
+    "id": "chethan-raghavendra",
+    "cricclubsId": "1655715",
+    "name": "Chethan Raghavendra",
+    "number": "00",
+    "role": "Batter",
+    "status": "current",
+    "tenure": "2020 – Present",
+    "badge": "Founding Member",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/chethan-raghavendra.webp",
+    "bio": "Founding member who sparked the club's journey in Summer 2020 at Allen Roberts Elementary School in New Providence with his son Pushan. 2026 Millennium T20: 3 Mat, 0 Runs, 1 Wkts • 2024 USCL Summer T20: 1 Mat, 0 Runs, 2 Wkts • 2023 USCL Summer T20: 4 Mat, 14 Runs, 1 Wkts",
+    "milestone": "Co-founded the club in Summer 2020 and competed across 3 GSS seasons (8 GSS Matches, 14 Runs, 4 Wickets).",
+    "highlightImage": "./assets/gallery/match-03.webp",
+    "stats": {
+      "matches": 8,
+      "runs": 14,
+      "wickets": 4
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=1655715&clubId=21827",
+    "socials": {
+      "cricclubs": "1655715"
+    }
+  },
+  {
+    "id": "rodricks-christian",
+    "cricclubsId": "2024101",
+    "name": "Rodricks Christian",
+    "number": "23",
+    "role": "All-Rounder",
+    "status": "current",
+    "tenure": "2026 – Present",
+    "badge": "2026 Active XI",
+    "battingStyle": "Right-Hand Top-Order Bat",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/rodricks-christian.webp",
+    "bio": "2026 Millennium T20: 1 Mat, 0 Runs, 1 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2026 – Present): 1 Matches • 0 Runs • 1 Wickets across 1 campaign(s). CricClubs ID #2024101.",
+    "highlightImage": "./assets/gallery/match-04.webp",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "wickets": 1
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=2024101&clubId=21827",
+    "socials": {
+      "cricclubs": "2024101"
+    }
+  },
+  {
+    "id": "ranjit-sangha",
+    "cricclubsId": "573196",
+    "name": "Ranjit Sangha",
+    "number": "22",
+    "role": "All-Rounder",
+    "status": "current",
+    "tenure": "2026 – Present",
+    "badge": "2026 Active XI",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Leg Spin",
+    "photo": "./assets/players/ranjit-sangha.webp",
+    "bio": "2026 Millennium T20: 1 Mat, 7 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2026 – Present): 1 Matches • 7 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #573196.",
+    "highlightImage": "./assets/gallery/match-05.webp",
+    "stats": {
+      "matches": 1,
+      "runs": 7,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=573196&clubId=21827",
+    "socials": {
+      "cricclubs": "573196"
+    }
+  },
+  {
+    "id": "maharshi-pandya",
+    "cricclubsId": "2013539",
+    "name": "Maharshi Pandya",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "current",
+    "tenure": "2024 – Present",
+    "badge": "2026 Active XI",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Off Spin",
+    "photo": null,
+    "bio": "2026 Millennium T20: 1 Mat, 0 Runs, 0 Wkts • 2024 USCL Fall T20: 1 Mat, 10 Runs, 0 Wkts • 2024 USCL Summer T20: 1 Mat, 10 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2024 – Present): 3 Matches • 20 Runs • 0 Wickets across 3 campaign(s). CricClubs ID #2013539.",
+    "highlightImage": "./assets/gallery/match-06.webp",
+    "stats": {
+      "matches": 3,
+      "runs": 20,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=2013539&clubId=21827",
+    "socials": {
+      "cricclubs": "2013539"
+    }
+  },
+  {
+    "id": "harp-singh-multani",
+    "cricclubsId": "1663190",
+    "name": "Harp Singh Multani",
+    "number": "12",
+    "role": "All-Rounder",
+    "status": "current",
+    "tenure": "2026 – Present",
+    "badge": "2026 Active XI",
+    "battingStyle": "Right-Hand Middle-Order Bat",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/harp-singh-multani.webp",
+    "bio": "2026 Millennium T20: 1 Mat, 0 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2026 – Present): 1 Matches • 0 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #1663190.",
+    "highlightImage": "./assets/gallery/match-01.webp",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=1663190&clubId=21827",
+    "socials": {
+      "cricclubs": "1663190"
+    }
+  },
+  {
+    "id": "sampath-vijayaragavan",
+    "cricclubsId": "6069126",
+    "name": "Sampath Vijayaragavan",
+    "number": "26",
+    "role": "Batter",
+    "status": "current",
+    "tenure": "2026 – Present",
+    "badge": "2026 Active XI",
+    "battingStyle": "Right-Hand Middle-Order Bat",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/sampath-vijayaragavan.webp",
+    "bio": "2026 Millennium T20: 1 Mat, 0 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2026 – Present): 1 Matches • 0 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #6069126.",
+    "highlightImage": "./assets/gallery/match-02.webp",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=6069126&clubId=21827",
+    "socials": {
+      "cricclubs": "6069126"
+    }
+  },
+  {
+    "id": "jagdish-subramony",
+    "cricclubsId": "1957376",
+    "name": "Jagdish Subramony",
+    "number": "00",
+    "role": "Keeper",
+    "status": "current",
+    "tenure": "2023 – Present",
+    "badge": "2026 Squad",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Wicketkeeper",
+    "photo": "./assets/players/jagdish-subramony.webp",
+    "bio": "2024 USCL Fall T20: 1 Mat, 0 Runs, 0 Wkts • 2024 USCL Summer T20: 3 Mat, 10 Runs, 0 Wkts • 2023 USCL Summer T20: 7 Mat, 49 Runs, 2 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – Present): 11 Matches • 59 Runs • 2 Wickets across 3 campaign(s). CricClubs ID #1957376.",
+    "highlightImage": "./assets/gallery/match-03.webp",
+    "stats": {
+      "matches": 11,
+      "runs": 59,
+      "wickets": 2
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=1957376&clubId=21827",
+    "socials": {
+      "cricclubs": "1957376"
+    }
+  },
+  {
+    "id": "viraj-patel",
+    "cricclubsId": "1949577",
+    "name": "Viraj Patel",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "current",
+    "tenure": "2023 – Present",
+    "badge": "2026 Squad",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/viraj-patel.webp",
+    "bio": "2023 USCL Summer T20: 1 Mat, 1 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – Present): 1 Matches • 1 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #1949577.",
+    "highlightImage": "./assets/gallery/match-04.webp",
+    "stats": {
+      "matches": 1,
+      "runs": 1,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=1949577&clubId=21827",
+    "socials": {
+      "cricclubs": "1949577"
+    }
+  },
+  {
+    "id": "samir-patra",
+    "cricclubsId": "2644598",
+    "name": "Samir Patra",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "current",
+    "tenure": "2023 – Present",
+    "badge": "2026 Squad",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/samir-patra.webp",
+    "bio": "Garden State Strikers 2026 Roster Member",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – Present): 0 Matches • 0 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #2644598.",
+    "highlightImage": "./assets/gallery/match-05.webp",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=2644598&clubId=21827",
+    "socials": {
+      "cricclubs": "2644598"
+    }
+  },
+  {
+    "id": "jatinder-singh",
+    "cricclubsId": "2018133",
+    "name": "Jatinder Singh",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "current",
+    "tenure": "2024 – Present",
+    "badge": "2026 Squad",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/jatinder-singh.webp",
+    "bio": "Garden State Strikers 2026 Roster Member",
+    "milestone": "Garden State Strikers Multi-Season Record (2024 – Present): 0 Matches • 0 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #2018133.",
+    "highlightImage": "./assets/gallery/match-06.webp",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=2018133&clubId=21827",
+    "socials": {
+      "cricclubs": "2018133"
+    }
+  },
+  {
+    "id": "harsimran-singh",
+    "cricclubsId": "4299552",
+    "name": "Harsimran Singh",
+    "number": "55",
+    "role": "All-Rounder",
+    "status": "former",
+    "tenure": "2026 Season",
+    "badge": "2026 Alumni",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/harsimran-singh.webp",
+    "bio": "2026 Millennium T20: 3 Mat, 5 Runs, 1 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2026 Season): 3 Matches • 5 Runs • 1 Wickets across 1 campaign(s). CricClubs ID #4299552.",
+    "highlightImage": "./assets/gallery/match-01.webp",
+    "stats": {
+      "matches": 3,
+      "runs": 5,
+      "wickets": 1
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=4299552&clubId=2153",
+    "socials": {
+      "cricclubs": "4299552"
+    }
+  },
+  {
+    "id": "anish-kumar-anand",
+    "cricclubsId": "2826867",
+    "name": "Anish Kumar Anand",
+    "number": "00",
+    "role": "Bowler",
+    "status": "former",
+    "tenure": "2023 – 2024",
+    "badge": "USCL Alumni (2023 – 2024)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/anish-kumar-anand.webp",
+    "bio": "2024 USCL Summer T20: 6 Mat, 0 Runs, 1 Wkts • 2023 USCL Summer T20: 8 Mat, 1 Runs, 14 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – 2024): 14 Matches • 1 Runs • 15 Wickets across 2 campaign(s). CricClubs ID #2826867.",
+    "highlightImage": "./assets/gallery/match-02.webp",
+    "stats": {
+      "matches": 14,
+      "runs": 1,
+      "wickets": 15
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=2826867&clubId=2153",
+    "socials": {
+      "cricclubs": "2826867"
+    }
+  },
+  {
+    "id": "pravin-shukla",
+    "cricclubsId": "1656162",
+    "name": "Pravin Shukla",
+    "number": "23",
+    "role": "Bowler",
+    "status": "former",
+    "tenure": "2023 – 2024",
+    "badge": "USCL Alumni (2023 – 2024)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/pravin-shukla.webp",
+    "bio": "2024 USCL Summer T20: 5 Mat, 0 Runs, 2 Wkts • 2023 USCL Summer T20: 6 Mat, 0 Runs, 10 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – 2024): 11 Matches • 0 Runs • 12 Wickets across 2 campaign(s). CricClubs ID #1656162.",
+    "highlightImage": "./assets/gallery/match-03.webp",
+    "stats": {
+      "matches": 11,
+      "runs": 0,
+      "wickets": 12
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=1656162&clubId=2153",
+    "socials": {
+      "cricclubs": "1656162"
+    }
+  },
+  {
+    "id": "vishal-joshi",
+    "cricclubsId": "4207724",
+    "name": "Vishal Joshi",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "former",
+    "tenure": "2024 Season",
+    "badge": "USCL Alumni (2024 Season)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": null,
+    "bio": "2024 USCL Fall T20: 1 Mat, 4 Runs, 0 Wkts • 2024 USCL Summer T20: 10 Mat, 43 Runs, 3 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2024 Season): 11 Matches • 47 Runs • 3 Wickets across 2 campaign(s). CricClubs ID #4207724.",
+    "highlightImage": "./assets/gallery/match-04.webp",
+    "stats": {
+      "matches": 11,
+      "runs": 47,
+      "wickets": 3
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=4207724&clubId=2153",
+    "socials": {
+      "cricclubs": "4207724"
+    }
+  },
+  {
+    "id": "samir-kalra",
+    "cricclubsId": "1853620",
+    "name": "Samir Kalra",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "former",
+    "tenure": "2023 – 2024",
+    "badge": "USCL Alumni (2023 – 2024)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/samir-kalra.webp",
+    "bio": "2024 USCL Summer T20: 1 Mat, 0 Runs, 0 Wkts • 2023 USCL Summer T20: 8 Mat, 5 Runs, 1 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – 2024): 9 Matches • 5 Runs • 1 Wickets across 2 campaign(s). CricClubs ID #1853620.",
+    "highlightImage": "./assets/gallery/match-05.webp",
+    "stats": {
+      "matches": 9,
+      "runs": 5,
+      "wickets": 1
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=1853620&clubId=2153",
+    "socials": {
+      "cricclubs": "1853620"
+    }
+  },
+  {
+    "id": "amanpreet-singh",
+    "cricclubsId": "6908601",
+    "name": "Amanpreet Singh",
+    "number": "00",
+    "role": "Batter",
+    "status": "former",
+    "tenure": "2023 – 2024",
+    "badge": "USCL Alumni (2023 – 2024)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/amanpreet-singh.webp",
+    "bio": "2024 USCL Summer T20: 3 Mat, 16 Runs, 3 Wkts • 2023 USCL Summer T20: 5 Mat, 101 Runs, 5 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – 2024): 8 Matches • 117 Runs • 8 Wickets across 2 campaign(s). CricClubs ID #6908601.",
+    "highlightImage": "./assets/gallery/match-06.webp",
+    "stats": {
+      "matches": 8,
+      "runs": 117,
+      "wickets": 8
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=6908601&clubId=2153",
+    "socials": {
+      "cricclubs": "6908601"
+    }
+  },
+  {
+    "id": "raghav-gupta",
+    "cricclubsId": "1853619",
+    "name": "Raghav Gupta",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "former",
+    "tenure": "2023 – 2024",
+    "badge": "USCL Alumni (2023 – 2024)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/raghav-gupta.webp",
+    "bio": "2024 USCL Summer T20: 1 Mat, 0 Runs, 0 Wkts • 2023 USCL Summer T20: 6 Mat, 22 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – 2024): 7 Matches • 22 Runs • 0 Wickets across 2 campaign(s). CricClubs ID #1853619.",
+    "highlightImage": "./assets/gallery/match-01.webp",
+    "stats": {
+      "matches": 7,
+      "runs": 22,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=1853619&clubId=2153",
+    "socials": {
+      "cricclubs": "1853619"
+    }
+  },
+  {
+    "id": "aniket-varade",
+    "cricclubsId": "763034",
+    "name": "Aniket Varade",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "former",
+    "tenure": "2023 – 2024",
+    "badge": "USCL Alumni (2023 – 2024)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/aniket-varade.webp",
+    "bio": "2024 USCL Summer T20: 3 Mat, 0 Runs, 0 Wkts • 2023 USCL Summer T20: 3 Mat, 0 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – 2024): 6 Matches • 0 Runs • 0 Wickets across 2 campaign(s). CricClubs ID #763034.",
+    "highlightImage": "./assets/gallery/match-02.webp",
+    "stats": {
+      "matches": 6,
+      "runs": 0,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=763034&clubId=2153",
+    "socials": {
+      "cricclubs": "763034"
+    }
+  },
+  {
+    "id": "pankaj-kumar-mishra",
+    "cricclubsId": "2628879",
+    "name": "Pankaj Kumar Mishra",
+    "number": "00",
+    "role": "Bowler",
+    "status": "former",
+    "tenure": "2023 Season",
+    "badge": "USCL Alumni (2023 Season)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/pankaj-kumar-mishra.webp",
+    "bio": "2023 USCL Summer T20: 4 Mat, 0 Runs, 2 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 Season): 4 Matches • 0 Runs • 2 Wickets across 1 campaign(s). CricClubs ID #2628879.",
+    "highlightImage": "./assets/gallery/match-03.webp",
+    "stats": {
+      "matches": 4,
+      "runs": 0,
+      "wickets": 2
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=2628879&clubId=2153",
+    "socials": {
+      "cricclubs": "2628879"
+    }
+  },
+  {
+    "id": "harsimran-singh-2483",
+    "cricclubsId": "1762483",
+    "name": "Harsimran Singh",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "former",
+    "tenure": "2024 Season",
+    "badge": "USCL Alumni (2024 Season)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/harsimran-singh-2483.webp",
+    "bio": "2024 USCL Fall T20: 4 Mat, 13 Runs, 1 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2024 Season): 4 Matches • 13 Runs • 1 Wickets across 1 campaign(s). CricClubs ID #1762483.",
+    "highlightImage": "./assets/gallery/match-04.webp",
+    "stats": {
+      "matches": 4,
+      "runs": 13,
+      "wickets": 1
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=1762483&clubId=2153",
+    "socials": {
+      "cricclubs": "1762483"
+    }
+  },
+  {
+    "id": "manoj-jaitly",
+    "cricclubsId": "2658095",
+    "name": "Manoj Jaitly",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "former",
+    "tenure": "2023 Season",
+    "badge": "USCL Alumni (2023 Season)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/manoj-jaitly.webp",
+    "bio": "2023 USCL Summer T20: 4 Mat, 1 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 Season): 4 Matches • 1 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #2658095.",
+    "highlightImage": "./assets/gallery/match-05.webp",
+    "stats": {
+      "matches": 4,
+      "runs": 1,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=2658095&clubId=2153",
+    "socials": {
+      "cricclubs": "2658095"
+    }
+  },
+  {
+    "id": "mahesh-kommanuru",
+    "cricclubsId": "3346457",
+    "name": "Mahesh Kommanuru",
+    "number": "02",
+    "role": "Batter",
+    "status": "former",
+    "tenure": "2024 Season",
+    "badge": "USCL Alumni (2024 Season)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/mahesh-kommanuru.webp",
+    "bio": "2024 USCL Fall T20: 3 Mat, 8 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2024 Season): 3 Matches • 8 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #3346457.",
+    "highlightImage": "./assets/gallery/match-06.webp",
+    "stats": {
+      "matches": 3,
+      "runs": 8,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=3346457&clubId=2153",
+    "socials": {
+      "cricclubs": "3346457"
+    }
+  },
+  {
+    "id": "mrudul-ghagor",
+    "cricclubsId": "2831053",
+    "name": "Mrudul Ghagor",
+    "number": "00",
+    "role": "Batter",
+    "status": "former",
+    "tenure": "2023 – 2024",
+    "badge": "USCL Alumni (2023 – 2024)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/mrudul-ghagor.webp",
+    "bio": "2024 USCL Summer T20: 1 Mat, 0 Runs, 0 Wkts • 2023 USCL Summer T20: 2 Mat, 0 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 – 2024): 3 Matches • 0 Runs • 0 Wickets across 2 campaign(s). CricClubs ID #2831053.",
+    "highlightImage": "./assets/gallery/match-01.webp",
+    "stats": {
+      "matches": 3,
+      "runs": 0,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=2831053&clubId=2153",
+    "socials": {
+      "cricclubs": "2831053"
+    }
+  },
+  {
+    "id": "nithin-reddy-gaddam",
+    "cricclubsId": "4207534",
+    "name": "Nithin Reddy Gaddam",
+    "number": "00",
+    "role": "Bowler",
+    "status": "former",
+    "tenure": "2024 Season",
+    "badge": "USCL Alumni (2024 Season)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/nithin-reddy-gaddam.webp",
+    "bio": "2024 USCL Fall T20: 1 Mat, 0 Runs, 0 Wkts • 2024 USCL Summer T20: 1 Mat, 0 Runs, 1 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2024 Season): 2 Matches • 0 Runs • 1 Wickets across 2 campaign(s). CricClubs ID #4207534.",
+    "highlightImage": "./assets/gallery/match-02.webp",
+    "stats": {
+      "matches": 2,
+      "runs": 0,
+      "wickets": 1
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=4207534&clubId=2153",
+    "socials": {
+      "cricclubs": "4207534"
+    }
+  },
+  {
+    "id": "vikramjeet-kumar",
+    "cricclubsId": "3282912",
+    "name": "Vikramjeet Kumar",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "former",
+    "tenure": "2023 Season",
+    "badge": "USCL Alumni (2023 Season)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/vikramjeet-kumar.webp",
+    "bio": "2023 USCL Summer T20: 2 Mat, 4 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 Season): 2 Matches • 4 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #3282912.",
+    "highlightImage": "./assets/gallery/match-03.webp",
+    "stats": {
+      "matches": 2,
+      "runs": 4,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=3282912&clubId=2153",
+    "socials": {
+      "cricclubs": "3282912"
+    }
+  },
+  {
+    "id": "srinath-nandyala",
+    "cricclubsId": "768406",
+    "name": "Srinath Nandyala",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "former",
+    "tenure": "2024 Season",
+    "badge": "USCL Alumni (2024 Season)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": null,
+    "bio": "2024 USCL Fall T20: 2 Mat, 2 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2024 Season): 2 Matches • 2 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #768406.",
+    "highlightImage": "./assets/gallery/match-04.webp",
+    "stats": {
+      "matches": 2,
+      "runs": 2,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=768406&clubId=2153",
+    "socials": {
+      "cricclubs": "768406"
+    }
+  },
+  {
+    "id": "kapil-yadav",
+    "cricclubsId": "349623",
+    "name": "Kapil Yadav",
+    "number": "21",
+    "role": "All-Rounder",
+    "status": "former",
+    "tenure": "2024 Season",
+    "badge": "USCL Alumni (2024 Season)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/kapil-yadav.webp",
+    "bio": "2024 USCL Summer T20: 1 Mat, 0 Runs, 2 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2024 Season): 1 Matches • 0 Runs • 2 Wickets across 1 campaign(s). CricClubs ID #349623.",
+    "highlightImage": "./assets/gallery/match-05.webp",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "wickets": 2
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=349623&clubId=2153",
+    "socials": {
+      "cricclubs": "349623"
+    }
+  },
+  {
+    "id": "vimal-kumar",
+    "cricclubsId": "511643",
+    "name": "Vimal Kumar",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "former",
+    "tenure": "2024 Season",
+    "badge": "USCL Alumni (2024 Season)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": null,
+    "bio": "2024 USCL Summer T20: 1 Mat, 18 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2024 Season): 1 Matches • 18 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #511643.",
+    "highlightImage": "./assets/gallery/match-06.webp",
+    "stats": {
+      "matches": 1,
+      "runs": 18,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=511643&clubId=2153",
+    "socials": {
+      "cricclubs": "511643"
+    }
+  },
+  {
+    "id": "prakash-tiwari",
+    "cricclubsId": "2273934",
+    "name": "Prakash Tiwari",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "former",
+    "tenure": "2023 Season",
+    "badge": "USCL Alumni (2023 Season)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": null,
+    "bio": "2023 USCL Summer T20: 1 Mat, 0 Runs, 1 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 Season): 1 Matches • 0 Runs • 1 Wickets across 1 campaign(s). CricClubs ID #2273934.",
+    "highlightImage": "./assets/gallery/match-01.webp",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "wickets": 1
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=2273934&clubId=2153",
+    "socials": {
+      "cricclubs": "2273934"
+    }
+  },
+  {
+    "id": "aaditva-agrawal",
+    "cricclubsId": "1263518",
+    "name": "Aaditva Agrawal",
+    "number": "00",
+    "role": "Batter",
+    "status": "former",
+    "tenure": "2024 Season",
+    "badge": "USCL Alumni (2024 Season)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/aaditva-agrawal.webp",
+    "bio": "2024 USCL Summer T20: 1 Mat, 0 Runs, 1 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2024 Season): 1 Matches • 0 Runs • 1 Wickets across 1 campaign(s). CricClubs ID #1263518.",
+    "highlightImage": "./assets/gallery/match-02.webp",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "wickets": 1
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=1263518&clubId=2153",
+    "socials": {
+      "cricclubs": "1263518"
+    }
+  },
+  {
+    "id": "rushil-pandya",
+    "cricclubsId": "4532596",
+    "name": "Rushil Pandya",
+    "number": "18",
+    "role": "All-Rounder",
+    "status": "former",
+    "tenure": "2024 Season",
+    "badge": "USCL Alumni (2024 Season)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/rushil-pandya.webp",
+    "bio": "2024 USCL Fall T20: 1 Mat, 2 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2024 Season): 1 Matches • 2 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #4532596.",
+    "highlightImage": "./assets/gallery/match-03.webp",
+    "stats": {
+      "matches": 1,
+      "runs": 2,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=4532596&clubId=2153",
+    "socials": {
+      "cricclubs": "4532596"
+    }
+  },
+  {
+    "id": "ravindar-kumar",
+    "cricclubsId": "1853632",
+    "name": "Ravindar Kumar",
+    "number": "45",
+    "role": "All-Rounder",
+    "status": "former",
+    "tenure": "2023 Season",
+    "badge": "USCL Alumni (2023 Season)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/ravindar-kumar.webp",
+    "bio": "2023 USCL Summer T20: 1 Mat, 0 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2023 Season): 1 Matches • 0 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #1853632.",
+    "highlightImage": "./assets/gallery/match-04.webp",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=1853632&clubId=2153",
+    "socials": {
+      "cricclubs": "1853632"
+    }
+  },
+  {
+    "id": "partha-radadiya",
+    "cricclubsId": "3645087",
+    "name": "Partha Radadiya",
+    "number": "00",
+    "role": "All-Rounder",
+    "status": "former",
+    "tenure": "2024 Season",
+    "badge": "USCL Alumni (2024 Season)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/partha-radadiya.webp",
+    "bio": "2024 USCL Summer T20: 1 Mat, 0 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2024 Season): 1 Matches • 0 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #3645087.",
+    "highlightImage": "./assets/gallery/match-05.webp",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=3645087&clubId=2153",
+    "socials": {
+      "cricclubs": "3645087"
+    }
+  },
+  {
+    "id": "sivakumar-arumugam",
+    "cricclubsId": "2553497",
+    "name": "Sivakumar Arumugam",
+    "number": "05",
+    "role": "All-Rounder",
+    "status": "former",
+    "tenure": "2024 Season",
+    "badge": "USCL Alumni (2024 Season)",
+    "battingStyle": "Right-Handed Batter",
+    "bowlingStyle": "Right-Arm Medium",
+    "photo": "./assets/players/sivakumar-arumugam.webp",
+    "bio": "2024 USCL Summer T20: 1 Mat, 0 Runs, 0 Wkts",
+    "milestone": "Garden State Strikers Multi-Season Record (2024 Season): 1 Matches • 0 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #2553497.",
+    "highlightImage": "./assets/gallery/match-06.webp",
+    "stats": {
+      "matches": 1,
+      "runs": 0,
+      "wickets": 0
+    },
+    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=2553497&clubId=2153",
+    "socials": {
+      "cricclubs": "2553497"
+    }
+  }
+]

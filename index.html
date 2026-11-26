@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f0e2a" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="GS Strikers" />
+  <meta name="description" content="Garden State Strikers Cricket Club — Official New Jersey Recreational Cricket PWA. View home grounds, squad roster, career stats, and matchday gallery offline." />
+
+  <title>Garden State Strikers • New Jersey Cricket Club</title>
+
+  <!-- Relative Paths for GitHub Pages Root & Subpath Compatibility -->
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/icons/icon-192.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./css/tokens.css" />
+  <link rel="stylesheet" href="./css/components.css" />
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('gss-theme');
+        var prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+        var theme = saved || (prefersLight ? 'light' : 'dark');
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <div class="app-shell">
+    <!-- Sticky Frosted Top Header -->
+    <header class="app-header" role="banner">
+      <div class="header-inner">
+        <a href="#club" class="brand-lockup" aria-label="Garden State Strikers Home">
+          <img
+            src="./assets/icons/logo.webp"
+            alt="Garden State Strikers Shield Crest"
+            class="brand-crest"
+            width="38"
+            height="38"
+            decoding="async"
+          />
+          <div class="brand-titles">
+            <span class="brand-name" id="header-club-name">Garden State Strikers</span>
+          </div>
+        </a>
+
+        <div class="header-actions">
+          <!-- Live Theme Switcher Bar (Light / Dark) -->
+          <div class="theme-switcher-bar" role="group" aria-label="Theme Switcher">
+            <button
+              type="button"
+              class="theme-switch-btn js-theme-btn"
+              data-theme-value="light"
+              aria-pressed="false"
+              aria-label="Switch to Light Mode"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+              </svg>
+              <span>Light</span>
+            </button>
+            <button
+              type="button"
+              class="theme-switch-btn js-theme-btn"
+              data-theme-value="dark"
+              aria-pressed="true"
+              aria-label="Switch to Dark Mode"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+              </svg>
+              <span>Dark</span>
+            </button>
+          </div>
+
+          <div class="header-season-pill tabular-nums" id="header-season-pill">
+            2026 Season
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Primary Responsive Navigation (Bottom Tab Bar / Landscape Rail / Desktop Pill Bar) -->
+    <nav class="app-nav" aria-label="Primary Navigation">
+      <ul class="nav-list" role="list">
+        <li class="nav-item">
+          <button type="button" class="nav-btn" data-route="club" aria-current="page">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            <span>Club</span>
+          </button>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="nav-btn" data-route="history">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+            <span>History</span>
+          </button>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="nav-btn" data-route="squad">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+            <span>Squad</span>
+          </button>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="nav-btn" data-route="gallery">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="3" ry="3"></rect>
+              <circle cx="8.5" cy="8.5" r="1.5"></circle>
+              <polyline points="21 15 16 10 5 21"></polyline>
+            </svg>
+            <span>Gallery</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Main Content Views -->
+    <main class="app-main" id="app-main">
+      <!-- VIEW 1: CLUB IDENTITY, WELCOME & NJ HOME GROUNDS (#club) -->
+      <section id="view-club" class="view-section is-active" aria-labelledby="club-heading">
+        <h1 id="club-heading" class="sr-only">Welcome to Garden State Strikers</h1>
+        <div id="club-content-root">
+          <!-- Dynamically populated by js/renderer.js from ./data/club.json -->
+        </div>
+      </section>
+
+      <!-- VIEW 2: OUR HISTORY & CLUB TIMELINE (#history) -->
+      <section id="view-history" class="view-section" aria-labelledby="history-heading">
+        <h1 id="history-heading" class="sr-only">Our History &amp; Club Timeline</h1>
+        <div id="history-content-root">
+          <!-- Dynamically populated by js/renderer.js from ./data/club.json -->
+        </div>
+      </section>
+
+      <!-- VIEW 2: INTERACTIVE SQUAD ROSTER (#squad) -->
+      <section id="view-squad" class="view-section" aria-labelledby="squad-heading">
+        <h1 id="squad-heading" class="sr-only">Squad Roster &amp; Career Statistics</h1>
+
+        <!-- Dual-Layer Sticky Filter Bar -->
+        <div class="squad-controls">
+          <div class="segmented-control" role="group" aria-label="Roster Status Filter">
+            <button type="button" class="segment-btn" data-status-filter="current" aria-pressed="true">
+              <span>Current</span>
+              <span class="segment-count tabular-nums" id="count-current">0</span>
+            </button>
+            <button type="button" class="segment-btn" data-status-filter="former" aria-pressed="false">
+              <span>Former</span>
+              <span class="segment-count tabular-nums" id="count-former">0</span>
+            </button>
+          </div>
+
+          <div class="role-filter-strip" role="group" aria-label="Cricket Role Filter">
+            <button type="button" class="role-chip" data-role-filter="All" aria-pressed="true">All Roles</button>
+            <button type="button" class="role-chip" data-role-filter="Batter" aria-pressed="false">Batters</button>
+            <button type="button" class="role-chip" data-role-filter="Bowler" aria-pressed="false">Bowlers</button>
+            <button type="button" class="role-chip" data-role-filter="All-Rounder" aria-pressed="false">All-Rounders</button>
+            <button type="button" class="role-chip" data-role-filter="Keeper" aria-pressed="false">Keepers</button>
+          </div>
+        </div>
+
+        <div id="squad-grid-root" class="squad-grid" aria-live="polite">
+          <!-- Dynamically populated by js/renderer.js from ./data/players.json -->
+        </div>
+      </section>
+
+      <!-- VIEW 3: MATCHDAY & TEAM GALLERY (#gallery) -->
+      <section id="view-gallery" class="view-section" aria-labelledby="gallery-heading">
+        <div class="section-header" style="margin-top: 0;">
+          <div>
+            <h1 id="gallery-heading" class="section-title">Matchday &amp; Team Gallery</h1>
+            <p class="section-subtitle">Moments from Mercer County Park &amp; Thompson Park</p>
+          </div>
+        </div>
+
+        <div id="gallery-filter-root" class="gallery-filter-bar" role="group" aria-label="Season Filter">
+          <!-- Populated with season filter chips -->
+        </div>
+
+        <div id="gallery-grid-root" class="gallery-grid" aria-live="polite">
+          <!-- Dynamically populated by js/renderer.js from ./data/gallery.json -->
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- NATIVE <dialog> 1: HYBRID IN-APP SOCIAL FEED & PLAYER SPOTLIGHT BOTTOM SHEET -->
+  <dialog id="social-sheet-dialog" class="ios-sheet" aria-labelledby="sheet-player-title">
+    <div class="sheet-grabber-bar" aria-hidden="true">
+      <span class="sheet-grabber"></span>
+    </div>
+    <header class="sheet-header">
+      <h2 id="sheet-player-title" class="sheet-title">Player Spotlight</h2>
+      <button type="button" id="sheet-close-btn" class="sheet-done-btn" aria-label="Close Player Spotlight">
+        Done
+      </button>
+    </header>
+    <div id="sheet-body-root" class="sheet-content">
+      <!-- Populated dynamically by js/social-sheet.js -->
+    </div>
+  </dialog>
+
+  <!-- NATIVE <dialog> 2: FULL-SCREEN 100dvh GALLERY LIGHTBOX -->
+  <dialog id="gallery-lightbox-dialog" class="lightbox-dialog" aria-labelledby="lightbox-title">
+    <div class="lightbox-shell">
+      <header class="lightbox-top">
+        <span id="lightbox-season-tag" class="badge-pill badge-pill--orange">Season</span>
+        <button type="button" id="lightbox-close-btn" class="sheet-done-btn" aria-label="Close Photo Lightbox">
+          Done
+        </button>
+      </header>
+
+      <div class="lightbox-stage" id="lightbox-touch-stage">
+        <button type="button" id="lightbox-prev-btn" class="lightbox-nav-btn lightbox-nav-btn--prev" aria-label="Previous Photo">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+
+        <img id="lightbox-img" class="lightbox-img" src="" alt="" decoding="async" />
+
+        <button type="button" id="lightbox-next-btn" class="lightbox-nav-btn lightbox-nav-btn--next" aria-label="Next Photo">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+
+      <footer class="lightbox-caption-bar">
+        <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:4px;">
+          <h2 id="lightbox-title" style="font-size:var(--text-base); font-weight:800;">Photo Title</h2>
+          <span id="lightbox-counter" class="tabular-nums" style="font-size:var(--text-xs); color:var(--text-tertiary);">1 / 6</span>
+        </div>
+        <p id="lightbox-caption" style="font-size:var(--text-sm); color:var(--text-secondary);"></p>
+      </footer>
+    </div>
+  </dialog>
+
+  <!-- One-Tap Copy Toast Feedback -->
+  <div id="app-toast" class="toast-container" role="status" aria-live="polite">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span id="app-toast-msg">Address copied for WhatsApp!</span>
+  </div>
+
+  <!-- Modular Vanilla JS Entrypoint -->
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
