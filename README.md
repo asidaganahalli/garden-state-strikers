@@ -2,9 +2,9 @@
   <img src="./images/gss-logo.jpg" alt="Garden State Strikers Crest" width="160" />
 
   # Garden State Strikers Cricket Club
-  **New Jersey Leather-Ball T20 Cricket • Est. 2020**
+  **New Jersey**
 
-  [**🌐 Visit Digital Clubhouse**](https://asidaganahalli.github.io/garden-state-strikers/) · [**📧 info@gardenstatestrikers.org**](mailto:info@gardenstatestrikers.org)
+  [**🌐 Visit Digital Clubhouse**](https://gardenstatestrikers.org) · [**📧 info@gardenstatestrikers.org**](mailto:info@gardenstatestrikers.org)
 </div>
 
 ---
@@ -13,7 +13,7 @@
 
 While our roots began in the summer of 2020 as a father-and-son session on a playground pitch in New Providence, New Jersey, today **Garden State Strikers (GSS)** is a tight-knit, closed brotherhood of passionate cricketers across New Jersey who come together every weekend for three to four hours of high-energy, spirited cricket.
 
-The moment we step onto the field, job titles, backgrounds, and everyday distractions stay at the boundary line—**we play strictly as one team**. Respecting teammates, honoring the spirit of the game, and genuinely celebrating each other’s success always come first. We believe that when camaraderie and grit lead the way, winning naturally follows.
+The moment we step onto the field, job titles, backgrounds, and everyday distractions stay at the boundary line **we play strictly as one team**. Respecting teammates, honoring the spirit of the game, and genuinely celebrating each other’s success always come first. We believe that when camaraderie and grit lead the way, winning naturally follows.
 
 ---
 
