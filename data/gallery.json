@@ -1,62 +1,42 @@
 [
   {
     "id": "match-01",
-    "title": "252/7 Season Opener Explosion vs NJ Revenants",
-    "caption": "Garden State Strikers pile up 252/7 in 20 overs at Cedar Brook Park and restrict NJ Revenants to 107/9 for a 145-run opening statement.",
-    "season": "2026 League",
-    "location": "Cedar Brook Park • Plainfield, NJ",
-    "date": "Apr 18, 2026",
+    "title": "2026 MCL Fall T20 • MCL Elite • Quarter Final",
+    "caption": "A heartbreaking end to a thrilling quarterfinal battle that went down to the very last over. Having remained unbeaten in the entire tournament, Sent in to bat, the Strikers faced stiff early resistance before Yasith Perera ignited the innings with a sensational 60 off just 25 balls. Supported by gritty stands with Gurjeet Sandhu and Prabakaran Jayabalan, Perera lifted us to a fighting 123. Defending a modest total, our bowlers refused to back down. Early breakthroughs set the tone before Perera returned with the ball (3/17), tearing through the middle order to leave Mumbai reeling at 99/8. Backed by disciplined spells from Waqas Akhtar (2/15) and Riken Patel (2/30), the Strikers pushed the opposition to the absolute brink, falling short by just a single wicket in a final-over heartbreaker.",
+    "season": "2026 Season",
+    "location": "2026 MCL Fall T20 • MCL Elite",
+    "date": "10/17/2026",
     "aspectRatio": "4 / 3",
     "src": "./assets/gallery/match-01.webp"
   },
   {
     "id": "match-02",
-    "title": "207/5 Power Batting Display vs Team 1983 A",
-    "caption": "Prabakaran Jayabalan and Gurjeet Sandhu lead the charge as GSS posts 207/5 and defends it by 36 runs to go 4-0 in Group B.",
-    "season": "2026 League",
-    "location": "Millennium Twenty20 • Gold Division",
-    "date": "May 16, 2026",
+    "title": "2026 Summer T20 • Saturday • Gold Division • Final",
+    "caption": "A tough finish in the Gold Division Final despite strong stretches of disciplined cricket. Going into the finals with only one loss in 11 league games and total domination in the playoff games. Bowling first, the Strikers struck immediately in the opening over and kept the pressure on through the middle overs. Gurmeet Dadlani’s fiery spell (3/37) and tight bowling from Amit Kumar (2/20) and Asif Mohammed (1/19) had NJ Panthers on the ropes at 116/7 before a late surge pushed their total to 146/7. Our chase started in commanding fashion, with openers Prabhjot Singh (28) and Prabakaran Jayabalan (28) racing to an effortless 45-run stand. We remained firmly in the hunt at 83/3 before a sudden middle-order collapse halted our momentum, leaving us short at 103 in a finals run we can still be proud of.",
+    "season": "2026 Season",
+    "location": "2026 Summer T20 • Gold Division",
+    "date": "08/21/2026",
     "aspectRatio": "1 / 1",
     "src": "./assets/gallery/match-02.webp"
   },
   {
     "id": "match-03",
-    "title": "Clinical 7-Wicket Chase vs Jersey Indians at Robbinsville",
-    "caption": "Chasing 151 in the afternoon session at Robbinsville, the Strikers race to 155/3 in just 16.4 overs with 7 wickets in hand.",
-    "season": "2026 League",
-    "location": "Robbinsville Ground • NJ",
-    "date": "May 30, 2026",
+    "title": "2025 USCL Summer T-20 • Qualifier",
+    "caption": "A frustrating morning in the Qualifier after a dominant start slipped away. Asked to bat first, the Strikers looked in complete control as openers Prabhjot Singh (28) and captain Prabakaran Jayabalan (29) anchored a crisp start, propelling the team to a commanding 77/2. Unfortunately, a sudden collapse against tight middle-over bowling saw us lose our last eight wickets for just 9 runs, leaving our bowlers only 86 to defend. Despite the low target, the Strikers came out fighting. Asif Mohammed struck in the very first over, and Santosh Lalan’s tidy double-strike (2/21) kept the pressure alive. However, without enough runs on the board, Nalwa eventually chased down the target in the 13th over.",
+    "season": "2025 Season",
+    "location": "2025 USCL Summer T-20",
+    "date": "09/13/2025",
     "aspectRatio": "4 / 3",
     "src": "./assets/gallery/match-03.webp"
   },
   {
     "id": "match-04",
-    "title": "Bowling Out Sonett US CC for 88 at Johnson 3",
-    "caption": "Santosh Lalan, Amit Kumar, and Mandeep Singh dismantle Sonett US Cricket Club for 88 before wrapping up a 5-wicket win in 12.1 overs.",
-    "season": "2026 League",
-    "location": "Johnson Park Pitch 3 • Piscataway, NJ",
-    "date": "Jun 20, 2026",
+    "title": "2024 USCL Summer T-20 • Final",
+    "caption": "A valiant effort in the Summer T20 Final that fell just short of the trophy. Winning the toss and electing to bowl, the Strikers started brilliantly with two early wickets. After United Cricket Club mounted a mid-innings recovery, Gurmeet Dadlani (3/18) sparked a massive turnaround—triggering a 5-wicket collapse for just 5 runs alongside steady spells from Santosh Lalan (2/21) and Anbumani Mailathipathy (2/23) to restrict them to 140. In the chase, opener Prabakaran Jayabalan anchored the innings with a courageous 42 off 57 balls, building a promising partnership with Mandeep Singh (12) to keep us in contention. However, steady wickets at the other end halted our momentum at 95, capping off a hard-fought runner-up campaign.",
+    "season": "2024 Season",
+    "location": "2024 USCL Summer T-20",
+    "date": "08/11/2024",
     "aspectRatio": "1 / 1",
     "src": "./assets/gallery/match-04.webp"
-  },
-  {
-    "id": "match-05",
-    "title": "Qualifier 1 Masterclass: Mumbai Gymkhana All Out for 60",
-    "caption": "Under playoff pressure at Howe Ground, GSS defends 131/8 by skittling #1 seed Mumbai Gymkhana for 60 in 15.4 overs to win by 71 runs.",
-    "season": "2026 Playoffs",
-    "location": "Howe Ground • Somerset, NJ",
-    "date": "Aug 08, 2026",
-    "aspectRatio": "4 / 3",
-    "src": "./assets/gallery/match-05.webp"
-  },
-  {
-    "id": "match-06",
-    "title": "Gold Division Championship Finalists (10W-2L-1NR Season)",
-    "caption": "Garden State Strikers celebrate a dominant 2026 Summer T20 Saturday Gold Division campaign finishing as Runner-Up with a +1.7142 NRR.",
-    "season": "2026 Playoffs",
-    "location": "Weston - 1 • Manville, NJ",
-    "date": "Aug 21, 2026",
-    "aspectRatio": "1 / 1",
-    "src": "./assets/gallery/match-06.webp"
   }
 ]

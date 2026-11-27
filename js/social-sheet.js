@@ -3,7 +3,7 @@
  * Controls the slide-up iOS <dialog> sheet with lazy-loaded YouTube embed & native app deep links.
  */
 
-import { escapeHtml, buildPlayerAvatarHtml } from './renderer.js?v=2.2.0';
+import { escapeHtml, buildPlayerAvatarHtml } from './renderer.js?v=2.3.0';
 
 /**
  * Resolves deep links and web fallback URLs for Instagram, X, and YouTube
