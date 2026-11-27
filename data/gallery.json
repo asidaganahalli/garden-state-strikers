@@ -1,6 +1,7 @@
 [
   {
     "id": "match-01",
+    "type": "image",
     "title": "2026 MCL Fall T20 • MCL Elite • Quarter Final",
     "caption": "A heartbreaking end to a thrilling quarterfinal battle that went down to the very last over. Having remained unbeaten in the entire tournament, Sent in to bat, the Strikers faced stiff early resistance before Yasith Perera ignited the innings with a sensational 60 off just 25 balls. Supported by gritty stands with Gurjeet Sandhu and Prabakaran Jayabalan, Perera lifted us to a fighting 123. Defending a modest total, our bowlers refused to back down. Early breakthroughs set the tone before Perera returned with the ball (3/17), tearing through the middle order to leave Mumbai reeling at 99/8. Backed by disciplined spells from Waqas Akhtar (2/15) and Riken Patel (2/30), the Strikers pushed the opposition to the absolute brink, falling short by just a single wicket in a final-over heartbreaker.",
     "season": "2026 Season",
@@ -10,17 +11,19 @@
     "src": "./assets/gallery/match-01.webp"
   },
   {
-    "id": "match-02",
+    "id": "2026-summer-t20-finals",
+    "type": "image",
     "title": "2026 Summer T20 • Saturday • Gold Division • Final",
     "caption": "A tough finish in the Gold Division Final despite strong stretches of disciplined cricket. Going into the finals with only one loss in 11 league games and total domination in the playoff games. Bowling first, the Strikers struck immediately in the opening over and kept the pressure on through the middle overs. Gurmeet Dadlani’s fiery spell (3/37) and tight bowling from Amit Kumar (2/20) and Asif Mohammed (1/19) had NJ Panthers on the ropes at 116/7 before a late surge pushed their total to 146/7. Our chase started in commanding fashion, with openers Prabhjot Singh (28) and Prabakaran Jayabalan (28) racing to an effortless 45-run stand. We remained firmly in the hunt at 83/3 before a sudden middle-order collapse halted our momentum, leaving us short at 103 in a finals run we can still be proud of.",
     "season": "2026 Season",
-    "location": "2026 Summer T20 • Gold Division",
+    "location": "2026 Summer T20 • Gold Division Finalists",
     "date": "08/21/2026",
-    "aspectRatio": "1 / 1",
-    "src": "./assets/gallery/match-02.webp"
+    "aspectRatio": "4 / 3",
+    "src": "./assets/gallery/2026-summer-t20-finals.webp"
   },
   {
     "id": "match-03",
+    "type": "image",
     "title": "2025 USCL Summer T-20 • Qualifier",
     "caption": "A frustrating morning in the Qualifier after a dominant start slipped away. Asked to bat first, the Strikers looked in complete control as openers Prabhjot Singh (28) and captain Prabakaran Jayabalan (29) anchored a crisp start, propelling the team to a commanding 77/2. Unfortunately, a sudden collapse against tight middle-over bowling saw us lose our last eight wickets for just 9 runs, leaving our bowlers only 86 to defend. Despite the low target, the Strikers came out fighting. Asif Mohammed struck in the very first over, and Santosh Lalan’s tidy double-strike (2/21) kept the pressure alive. However, without enough runs on the board, Nalwa eventually chased down the target in the 13th over.",
     "season": "2025 Season",
@@ -30,7 +33,31 @@
     "src": "./assets/gallery/match-03.webp"
   },
   {
+    "id": "2025-end-of-season-party",
+    "type": "image",
+    "title": "2025 End-of-Season Team Celebration",
+    "caption": "Celebrating another hard-fought campaign off the pitch—where camaraderie, brotherhood, and shared laughs take center stage after months of weekend cricket across New Jersey.",
+    "season": "2025 Season",
+    "location": "2025 Team Awards & Celebration Night",
+    "date": "Late 2025",
+    "aspectRatio": "4 / 3",
+    "src": "./assets/gallery/2025-end-of-season-party.webp"
+  },
+  {
+    "id": "2025-end-of-season-party-video",
+    "type": "video",
+    "title": "2025 End-of-Season Party • Video Highlight",
+    "caption": "Tap to watch the live video highlight from the Garden State Strikers 2025 End-of-Season team gathering and celebration.",
+    "season": "2025 Season",
+    "location": "2025 Team Celebration • Video Clip",
+    "date": "Late 2025",
+    "aspectRatio": "4 / 3",
+    "src": "./assets/gallery/2025-end-of-season-party.webp",
+    "videoSrc": "./assets/gallery/2025-end-of-season-party.mp4"
+  },
+  {
     "id": "match-04",
+    "type": "image",
     "title": "2024 USCL Summer T-20 • Final",
     "caption": "A valiant effort in the Summer T20 Final that fell just short of the trophy. Winning the toss and electing to bowl, the Strikers started brilliantly with two early wickets. After United Cricket Club mounted a mid-innings recovery, Gurmeet Dadlani (3/18) sparked a massive turnaround—triggering a 5-wicket collapse for just 5 runs alongside steady spells from Santosh Lalan (2/21) and Anbumani Mailathipathy (2/23) to restrict them to 140. In the chase, opener Prabakaran Jayabalan anchored the innings with a courageous 42 off 57 balls, building a promising partnership with Mandeep Singh (12) to keep us in contention. However, steady wickets at the other end halted our momentum at 95, capping off a hard-fought runner-up campaign.",
     "season": "2024 Season",
@@ -38,5 +65,49 @@
     "date": "08/11/2024",
     "aspectRatio": "1 / 1",
     "src": "./assets/gallery/match-04.webp"
+  },
+  {
+    "id": "2024-end-of-season-party",
+    "type": "image",
+    "title": "2024 End-of-Season Celebration at Topgolf",
+    "caption": "The full Garden State Strikers squad gathered at Topgolf in Edison, NJ to celebrate an unbeaten 8-0 regular season, our USCL Championship Final run, and our annual team awards.",
+    "season": "2024 Season",
+    "location": "Topgolf • Edison, NJ",
+    "date": "Late 2024",
+    "aspectRatio": "4 / 3",
+    "src": "./assets/gallery/2024-end-of-season-party.webp"
+  },
+  {
+    "id": "2024-mvp",
+    "type": "image",
+    "title": "Garden State Strikers • MVP Award Presentation",
+    "caption": "Vice-Captain Santosh Lalan honored with the Garden State Strikers Most Valuable Player trophy following his dominant all-round campaign leading the attack and middle order.",
+    "season": "2024 Season",
+    "location": "Topgolf Awards Night • NJ",
+    "date": "2024 Awards",
+    "aspectRatio": "1 / 1",
+    "src": "./assets/gallery/2024-mvp.webp"
+  },
+  {
+    "id": "2024-most-promising",
+    "type": "image",
+    "title": "Garden State Strikers • Most Promising Player Award",
+    "caption": "Celebrating breakout performances and dedication to the team with the Garden State Strikers Most Promising Player trophy at our Topgolf awards night.",
+    "season": "2024 Season",
+    "location": "Topgolf Awards Night • NJ",
+    "date": "2024 Awards",
+    "aspectRatio": "1 / 1",
+    "src": "./assets/gallery/2024-most-promising.webp"
+  },
+  {
+    "id": "first-ever-game-as-a-team",
+    "type": "image",
+    "title": "Where It All Started • Our First-Ever Game as a Team",
+    "caption": "A priceless piece of club history—our original squad lined up in matching red jerseys on an autumn leaf-covered New Jersey field for our very first game together as a team, with young Pushan right beside the squad.",
+    "season": "2024 Season",
+    "location": "New Jersey • Club Origins",
+    "date": "Founding Era",
+    "aspectRatio": "4 / 3",
+    "src": "./assets/gallery/first-ever-game-as-a-team.webp"
   }
 ]
