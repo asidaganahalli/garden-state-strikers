@@ -8,7 +8,7 @@
     "location": "2026 MCL Fall T20 • MCL Elite",
     "date": "10/17/2026",
     "aspectRatio": "4 / 3",
-    "src": "./assets/gallery/match-01.webp"
+    "src": "./assets/gallery/2026-mcl-fall-qf.webp"
   },
   {
     "id": "2026-summer-t20-finals",
@@ -30,7 +30,7 @@
     "location": "2025 USCL Summer T-20",
     "date": "09/13/2025",
     "aspectRatio": "4 / 3",
-    "src": "./assets/gallery/match-03.webp"
+    "src": "./assets/gallery/2025-uscl-summer-qualifier.webp"
   },
   {
     "id": "2025-end-of-season-party",
@@ -64,7 +64,7 @@
     "location": "2024 USCL Summer T-20",
     "date": "08/11/2024",
     "aspectRatio": "1 / 1",
-    "src": "./assets/gallery/match-04.webp"
+    "src": "./assets/gallery/2024-uscl-summer-final.webp"
   },
   {
     "id": "2024-end-of-season-party",
