@@ -6,7 +6,7 @@
  * 3. Headless JSON Data (data/*.json): Stale-While-Revalidate for instant field rendering + silent background refresh
  */
 
-const CACHE_VERSION = 'gss-v2.4.0';
+const CACHE_VERSION = 'gss-v2.4.1';
 const SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DATA_CACHE = `${CACHE_VERSION}-data`;
@@ -79,12 +79,11 @@ const PRECACHE_STATIC_URLS = [
   "./assets/players/vikramjeet-kumar.webp",
   "./assets/players/viraj-patel.webp",
   "./assets/players/waqas-akhtar.webp",
-  "./assets/gallery/match-01.webp",
-  "./assets/gallery/match-02.webp",
-  "./assets/gallery/match-03.webp",
-  "./assets/gallery/match-04.webp",
+  "./assets/gallery/2026-mcl-fall-qf.webp",
   "./assets/gallery/2026-summer-t20-finals.webp",
+  "./assets/gallery/2025-uscl-summer-qualifier.webp",
   "./assets/gallery/2025-end-of-season-party.webp",
+  "./assets/gallery/2024-uscl-summer-final.webp",
   "./assets/gallery/2024-end-of-season-party.webp",
   "./assets/gallery/2024-mvp.webp",
   "./assets/gallery/2024-most-promising.webp",
