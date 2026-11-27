@@ -1,8 +1,8 @@
 <div align="center">
   <img src="./images/gss-logo.jpg" alt="Garden State Strikers Crest" width="160" />
 
-  # Garden State Strikers Cricket Club
-  **New Jersey**
+  # Garden State Strikers
+  **Cricket Team based out of New Jersey**
 
   [**🌐 Visit Digital Clubhouse**](https://gardenstatestrikers.org) · [**📧 info@gardenstatestrikers.org**](mailto:info@gardenstatestrikers.org)
 </div>
