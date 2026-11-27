@@ -2,8 +2,8 @@
  * GARDEN STATE STRIKERS PWA — MAIN CONTROLLER, HISTORY API ROUTER & SERVICE WORKER BOOTSTRAP
  */
 
-import { renderClubView, renderHistoryView, renderSquadView, renderGalleryView, renderLegalSheet } from './renderer.js';
-import { SocialSheetController } from './social-sheet.js';
+import { renderClubView, renderHistoryView, renderSquadView, renderGalleryView, renderLegalSheet } from './renderer.js?v=2.2.0';
+import { SocialSheetController } from './social-sheet.js?v=2.2.0';
 
 const STATE = {
   club: null,
