@@ -89,6 +89,22 @@
           <div class="header-season-pill tabular-nums" id="header-season-pill">
             2026 Season
           </div>
+
+          <!-- Top-Header Info (ⓘ) Button for Contact, Terms, Privacy & Disclaimers -->
+          <button
+            type="button"
+            class="header-info-btn js-open-legal-sheet"
+            data-legal-tab="terms"
+            aria-label="Open Club Contact, Terms, Privacy and Disclaimers"
+            title="Club Info, Contact & Legal"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+            <span class="header-info-label">Info</span>
+          </button>
         </div>
       </div>
     </header>
@@ -255,6 +271,22 @@
         </div>
         <p id="lightbox-caption" style="font-size:var(--text-sm); color:var(--text-secondary);"></p>
       </footer>
+    </div>
+  </dialog>
+
+  <!-- NATIVE <dialog> 3: CLUB INFO, CONTACT, TERMS, PRIVACY & DISCLAIMERS iOS BOTTOM SHEET -->
+  <dialog id="legal-sheet-dialog" class="ios-sheet" aria-labelledby="legal-sheet-title">
+    <div class="sheet-grabber-bar" aria-hidden="true">
+      <span class="sheet-grabber"></span>
+    </div>
+    <header class="sheet-header">
+      <h2 id="legal-sheet-title" class="sheet-title">Club Info, Contact &amp; Legal</h2>
+      <button type="button" id="legal-sheet-close-btn" class="sheet-done-btn" aria-label="Close Club Info">
+        Done
+      </button>
+    </header>
+    <div id="legal-sheet-body" class="sheet-content">
+      <!-- Dynamically populated by js/renderer.js from ./data/club.json -->
     </div>
   </dialog>
 

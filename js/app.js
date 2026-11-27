@@ -2,7 +2,7 @@
  * GARDEN STATE STRIKERS PWA — MAIN CONTROLLER, HISTORY API ROUTER & SERVICE WORKER BOOTSTRAP
  */
 
-import { renderClubView, renderHistoryView, renderSquadView, renderGalleryView } from './renderer.js';
+import { renderClubView, renderHistoryView, renderSquadView, renderGalleryView, renderLegalSheet } from './renderer.js';
 import { SocialSheetController } from './social-sheet.js';
 
 const STATE = {
@@ -50,7 +50,11 @@ const DOM = {
   lightboxCloseBtn: document.getElementById('lightbox-close-btn'),
   lightboxPrevBtn: document.getElementById('lightbox-prev-btn'),
   lightboxNextBtn: document.getElementById('lightbox-next-btn'),
-  lightboxTouchStage: document.getElementById('lightbox-touch-stage')
+  lightboxTouchStage: document.getElementById('lightbox-touch-stage'),
+  // Legal & Privacy Sheet elements
+  legalDialog: document.getElementById('legal-sheet-dialog'),
+  legalBody: document.getElementById('legal-sheet-body'),
+  legalCloseBtn: document.getElementById('legal-sheet-close-btn')
 };
 
 let socialSheet = null;
@@ -438,6 +442,53 @@ function bindInteractions() {
       stepLightbox(deltaX < 0 ? 1 : -1);
     }
   }, { passive: true });
+
+  // 7. Global One-Tap Copy Email & Legal Bottom Sheet (<dialog>) Triggers
+  document.addEventListener('click', async (e) => {
+    const copyEmailBtn = e.target.closest('.js-copy-email');
+    if (copyEmailBtn) {
+      const emailText = copyEmailBtn.getAttribute('data-email') || 'info@gardenstatestrikers.org';
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          await navigator.clipboard.writeText(emailText);
+        } else {
+          const tempInput = document.createElement('textarea');
+          tempInput.value = emailText;
+          document.body.appendChild(tempInput);
+          tempInput.select();
+          document.execCommand('copy');
+          tempInput.remove();
+        }
+        showToast(`Email copied: ${emailText}`);
+      } catch {
+        showToast(`Email: ${emailText}`);
+      }
+      return;
+    }
+
+    const openLegalBtn = e.target.closest('.js-open-legal-sheet');
+    if (openLegalBtn && DOM.legalDialog) {
+      const tabId = openLegalBtn.getAttribute('data-legal-tab') || 'terms';
+      renderLegalSheet(STATE.club, DOM.legalBody, tabId);
+      if (!DOM.legalDialog.open) {
+        DOM.legalDialog.showModal();
+      }
+      return;
+    }
+
+    const switchLegalTabBtn = e.target.closest('.js-legal-tab-btn');
+    if (switchLegalTabBtn && DOM.legalBody) {
+      const nextTab = switchLegalTabBtn.getAttribute('data-legal-tab') || 'terms';
+      renderLegalSheet(STATE.club, DOM.legalBody, nextTab);
+    }
+  });
+
+  DOM.legalCloseBtn?.addEventListener('click', () => DOM.legalDialog?.close());
+  DOM.legalDialog?.addEventListener('click', (e) => {
+    if (e.target === DOM.legalDialog) {
+      DOM.legalDialog.close();
+    }
+  });
 }
 
 /**

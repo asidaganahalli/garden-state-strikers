@@ -6,7 +6,7 @@
  * 3. Headless JSON Data (data/*.json): Stale-While-Revalidate for instant field rendering + silent background refresh
  */
 
-const CACHE_VERSION = 'gss-v1.9.0';
+const CACHE_VERSION = 'gss-v2.1.1';
 const SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DATA_CACHE = `${CACHE_VERSION}-data`;
