@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-      - master
-      - feature/gss-pwa
   workflow_dispatch:
 
 permissions:
