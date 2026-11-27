@@ -6,7 +6,7 @@
  * 3. Headless JSON Data (data/*.json): Stale-While-Revalidate for instant field rendering + silent background refresh
  */
 
-const CACHE_VERSION = 'gss-v2.1.1';
+const CACHE_VERSION = 'gss-v2.2.0';
 const SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DATA_CACHE = `${CACHE_VERSION}-data`;
@@ -131,7 +131,14 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  if (request.mode === 'navigate' || url.pathname.endsWith('/') || url.pathname.endsWith('/index.html')) {
+  // Use Network-First for App Shell (index.html), JS modules, and CSS so deployed code updates take effect immediately on reload
+  if (
+    request.mode === 'navigate' ||
+    url.pathname.endsWith('/') ||
+    url.pathname.endsWith('/index.html') ||
+    url.pathname.endsWith('.js') ||
+    url.pathname.endsWith('.css')
+  ) {
     event.respondWith(networkFirstShell(request));
     return;
   }
@@ -148,7 +155,10 @@ async function networkFirstShell(request) {
     }
     return freshResponse;
   } catch {
-    const cached = await cache.match(request) || await cache.match('./index.html') || await cache.match('./');
+    const cached =
+      (await cache.match(request)) ||
+      (await caches.match(request)) ||
+      (request.mode === 'navigate' ? (await cache.match('./index.html')) || (await cache.match('./')) : null);
     return cached;
   }
 }
