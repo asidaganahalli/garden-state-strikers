@@ -725,56 +725,6 @@
     }
   },
   {
-    "id": "jatinder-singh",
-    "cricclubsId": "2018133",
-    "name": "Jatinder Singh",
-    "number": "00",
-    "role": "All-Rounder",
-    "status": "current",
-    "tenure": "2024 – Present",
-    "badge": "2026 Squad",
-    "battingStyle": "Right-Handed Batter",
-    "bowlingStyle": "Right-Arm Medium",
-    "photo": "./assets/players/jatinder-singh.webp",
-    "bio": "Garden State Strikers 2026 Roster Member",
-    "milestone": "Garden State Strikers Multi-Season Record (2024 – Present): 0 Matches • 0 Runs • 0 Wickets across 1 campaign(s). CricClubs ID #2018133.",
-    "highlightImage": "./assets/gallery/match-06.webp",
-    "stats": {
-      "matches": 0,
-      "runs": 0,
-      "wickets": 0
-    },
-    "cricclubsUrl": "https://cricclubs.com/MillenniumTwenty20/viewPlayer.do?playerId=2018133&clubId=21827",
-    "socials": {
-      "cricclubs": "2018133"
-    }
-  },
-  {
-    "id": "harsimran-singh",
-    "cricclubsId": "4299552",
-    "name": "Harsimran Singh",
-    "number": "55",
-    "role": "All-Rounder",
-    "status": "former",
-    "tenure": "2026 Season",
-    "badge": "2026 Alumni",
-    "battingStyle": "Right-Handed Batter",
-    "bowlingStyle": "Right-Arm Medium",
-    "photo": "./assets/players/harsimran-singh.webp",
-    "bio": "2026 Millennium T20: 3 Mat, 5 Runs, 1 Wkts",
-    "milestone": "Garden State Strikers Multi-Season Record (2026 Season): 3 Matches • 5 Runs • 1 Wickets across 1 campaign(s). CricClubs ID #4299552.",
-    "highlightImage": "./assets/gallery/match-01.webp",
-    "stats": {
-      "matches": 3,
-      "runs": 5,
-      "wickets": 1
-    },
-    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=4299552&clubId=2153",
-    "socials": {
-      "cricclubs": "4299552"
-    }
-  },
-  {
     "id": "anish-kumar-anand",
     "cricclubsId": "2826867",
     "name": "Anish Kumar Anand",
@@ -972,31 +922,6 @@
     "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=2628879&clubId=2153",
     "socials": {
       "cricclubs": "2628879"
-    }
-  },
-  {
-    "id": "harsimran-singh-2483",
-    "cricclubsId": "1762483",
-    "name": "Harsimran Singh",
-    "number": "00",
-    "role": "All-Rounder",
-    "status": "former",
-    "tenure": "2024 Season",
-    "badge": "USCL Alumni (2024 Season)",
-    "battingStyle": "Right-Handed Batter",
-    "bowlingStyle": "Right-Arm Medium",
-    "photo": "./assets/players/harsimran-singh-2483.webp",
-    "bio": "2024 USCL Fall T20: 4 Mat, 13 Runs, 1 Wkts",
-    "milestone": "Garden State Strikers Multi-Season Record (2024 Season): 4 Matches • 13 Runs • 1 Wickets across 1 campaign(s). CricClubs ID #1762483.",
-    "highlightImage": "./assets/gallery/match-04.webp",
-    "stats": {
-      "matches": 4,
-      "runs": 13,
-      "wickets": 1
-    },
-    "cricclubsUrl": "https://cricclubs.com/USCL/viewPlayer.do?playerId=1762483&clubId=2153",
-    "socials": {
-      "cricclubs": "1762483"
     }
   },
   {
