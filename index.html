@@ -17,8 +17,8 @@
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png" />
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="./css/tokens.css?v=2.3.0" />
-  <link rel="stylesheet" href="./css/components.css?v=2.3.0" />
+  <link rel="stylesheet" href="./css/tokens.css?v=2.4.0" />
+  <link rel="stylesheet" href="./css/components.css?v=2.4.0" />
   <script>
     (function () {
       try {
@@ -256,6 +256,14 @@
         </button>
 
         <img id="lightbox-img" class="lightbox-img" src="" alt="" decoding="async" />
+        <video
+          id="lightbox-video"
+          class="lightbox-img"
+          controls
+          playsinline
+          preload="none"
+          style="display: none;"
+        ></video>
 
         <button type="button" id="lightbox-next-btn" class="lightbox-nav-btn lightbox-nav-btn--next" aria-label="Next Photo">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -299,6 +307,6 @@
   </div>
 
   <!-- Modular Vanilla JS Entrypoint -->
-  <script type="module" src="./js/app.js?v=2.3.0"></script>
+  <script type="module" src="./js/app.js?v=2.4.0"></script>
 </body>
 </html>

@@ -658,13 +658,26 @@ export function renderGalleryView(photos = [], activeSeason = 'All', gridContain
     ? photos
     : photos.filter(p => p.season === activeSeason);
 
-  gridContainer.innerHTML = filtered.map((photo, idx) => `
+  gridContainer.innerHTML = filtered.map((photo, idx) => {
+    const isVideo = photo.type === 'video' || Boolean(photo.videoSrc);
+    const playOverlayHtml = isVideo
+      ? `
+        <span class="gallery-video-play-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+            <polygon points="8 5 19 12 8 19 8 5"></polygon>
+          </svg>
+          <span>Play Video</span>
+        </span>
+      `
+      : '';
+
+    return `
     <button
       type="button"
       class="gallery-card js-open-lightbox"
       data-photo-id="${escapeHtml(photo.id)}"
       data-photo-index="${idx}"
-      aria-label="View photo: ${escapeHtml(photo.title)}"
+      aria-label="${isVideo ? 'Play video' : 'View photo'}: ${escapeHtml(photo.title)}"
     >
       <div class="gallery-media" data-ratio="${escapeHtml(photo.aspectRatio || '4 / 3')}">
         <img
@@ -675,6 +688,7 @@ export function renderGalleryView(photos = [], activeSeason = 'All', gridContain
           decoding="async"
         />
         <span class="gallery-season-tag tabular-nums">${escapeHtml(photo.season)}</span>
+        ${playOverlayHtml}
       </div>
       <div class="gallery-body">
         <h2 class="gallery-title">${escapeHtml(photo.title)}</h2>
@@ -685,7 +699,8 @@ export function renderGalleryView(photos = [], activeSeason = 'All', gridContain
         </div>
       </div>
     </button>
-  `).join('');
+  `;
+  }).join('');
 }
 
 const DEFAULT_LEGAL_SECTIONS = [

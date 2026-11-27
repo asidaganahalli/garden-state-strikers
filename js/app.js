@@ -2,8 +2,8 @@
  * GARDEN STATE STRIKERS PWA — MAIN CONTROLLER, HISTORY API ROUTER & SERVICE WORKER BOOTSTRAP
  */
 
-import { renderClubView, renderHistoryView, renderSquadView, renderGalleryView, renderLegalSheet } from './renderer.js?v=2.3.0';
-import { SocialSheetController } from './social-sheet.js?v=2.3.0';
+import { renderClubView, renderHistoryView, renderSquadView, renderGalleryView, renderLegalSheet } from './renderer.js?v=2.4.0';
+import { SocialSheetController } from './social-sheet.js?v=2.4.0';
 
 const STATE = {
   club: null,
@@ -43,6 +43,7 @@ const DOM = {
   // Lightbox elements
   lightboxDialog: document.getElementById('gallery-lightbox-dialog'),
   lightboxImg: document.getElementById('lightbox-img'),
+  lightboxVideo: document.getElementById('lightbox-video'),
   lightboxTitle: document.getElementById('lightbox-title'),
   lightboxCaption: document.getElementById('lightbox-caption'),
   lightboxSeasonTag: document.getElementById('lightbox-season-tag'),
@@ -174,8 +175,17 @@ function applyRoute({ view, subId }, { pushHistory = false, replaceHistory = fal
 }
 
 /**
- * Lightbox Controller Methods
+ * Lightbox Controller Methods (Supports both WebP Photos and Lazy-Loaded MP4 Video Clips)
  */
+function stopLightboxVideo() {
+  if (DOM.lightboxVideo) {
+    DOM.lightboxVideo.pause();
+    DOM.lightboxVideo.removeAttribute('src');
+    DOM.lightboxVideo.load();
+    DOM.lightboxVideo.style.display = 'none';
+  }
+}
+
 function openLightboxAtIndex(index, { syncRoute = true } = {}) {
   const list = STATE.filteredGallery;
   if (!list.length || !DOM.lightboxDialog) return;
@@ -183,9 +193,21 @@ function openLightboxAtIndex(index, { syncRoute = true } = {}) {
   const safeIndex = (index + list.length) % list.length;
   STATE.lightboxIndex = safeIndex;
   const item = list[safeIndex];
+  const isVideo = item.type === 'video' || Boolean(item.videoSrc);
 
-  DOM.lightboxImg.src = item.src;
-  DOM.lightboxImg.alt = item.title;
+  if (isVideo && DOM.lightboxVideo) {
+    DOM.lightboxImg.style.display = 'none';
+    DOM.lightboxVideo.style.display = 'block';
+    DOM.lightboxVideo.poster = item.src || '';
+    DOM.lightboxVideo.src = item.videoSrc;
+    DOM.lightboxVideo.play().catch(() => {});
+  } else {
+    stopLightboxVideo();
+    DOM.lightboxImg.style.display = 'block';
+    DOM.lightboxImg.src = item.src;
+    DOM.lightboxImg.alt = item.title;
+  }
+
   DOM.lightboxTitle.textContent = item.title;
   DOM.lightboxCaption.textContent = `${item.caption} (${item.location || 'New Jersey'})`;
   DOM.lightboxSeasonTag.textContent = item.season;
@@ -418,6 +440,7 @@ function bindInteractions() {
   });
 
   DOM.lightboxDialog?.addEventListener('close', () => {
+    stopLightboxVideo();
     if (window.location.hash.startsWith('#gallery/')) {
       history.pushState({ view: 'gallery', subId: null }, '', '#gallery');
     }
