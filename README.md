@@ -1,10 +1,10 @@
 <div align="center">
   <img src="./images/gss-logo.jpg" alt="Garden State Strikers Crest" width="160" />
 
-  # Garden State Strikers Cricket Club
-  **New Jersey Leather-Ball T20 Cricket • Est. 2020**
+  # Garden State Strikers
+  **Cricket Team based out of New Jersey**
 
-  [**🌐 Visit Digital Clubhouse**](https://asidaganahalli.github.io/garden-state-strikers/) · [**📧 info@gardenstatestrikers.org**](mailto:info@gardenstatestrikers.org)
+  [**🌐 Visit Digital Clubhouse**](https://gardenstatestrikers.org) · [**📧 info@gardenstatestrikers.org**](mailto:info@gardenstatestrikers.org)
 </div>
 
 ---
