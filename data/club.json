@@ -776,5 +776,72 @@
     "highlight": "111-Run Opener Win vs Canopus CC (186/3 vs 75/10) • 3-Run Thriller vs Mumbai Gymkhana (113 vs 110) • 26-Run Win vs Jersey Bulls",
     "captain": "Anil Sidaganahalli",
     "viceCaptain": "Santosh Lalan"
+  },
+  "contactEmail": "info@gardenstatestrikers.org",
+  "legal": {
+    "email": "info@gardenstatestrikers.org",
+    "copyright": "© 2026 Garden State Strikers Cricket Club • New Jersey",
+    "sections": [
+      {
+        "id": "terms",
+        "label": "Terms & Conditions",
+        "title": "Terms & Conditions of Use",
+        "updated": "Effective Date: 2026 Season",
+        "clauses": [
+          {
+            "heading": "1. Club Nature & Membership",
+            "body": "Garden State Strikers (GSS) is a private, closed recreational cricket club based in New Jersey. Access to this Progressive Web App (PWA) and website is provided for informational purposes for team members, alumni, league officials, and invited supporters. Participation in club practices, net sessions, and league fixtures is strictly by invitation and subject to adherence to our team code of conduct and spirit-of-the-game principles."
+          },
+          {
+            "heading": "2. Intellectual Property & Club Identity",
+            "body": "The Garden State Strikers name, shield crest, custom graphics, and written club history are the property of Garden State Strikers. You may not reproduce or use the club crest or branding for commercial purposes, merchandise, or unauthorized representation without prior written consent via info@gardenstatestrikers.org."
+          },
+          {
+            "heading": "3. Accuracy of Match & Statistical Data",
+            "body": "All match scores, seasonal timelines, and player career statistics are compiled from official league scorecards hosted on CricClubs (including USCL and Millennium Cricket League). While we strive to keep records accurate, official league portals remain the authoritative record for tournament standings and statistics."
+          }
+        ]
+      },
+      {
+        "id": "privacy",
+        "label": "Privacy Policy",
+        "title": "Privacy Policy (Zero-Tracking Architecture)",
+        "updated": "Effective Date: 2026 Season",
+        "clauses": [
+          {
+            "heading": "1. Zero Personal Data Collection or Tracking",
+            "body": "This website and Progressive Web App operate on a 100% static, serverless architecture. We do not use tracking cookies, advertising pixels, third-party analytics trackers, user login databases, or background telemetry. Your browsing activity on this app is never tracked, profiled, or sold."
+          },
+          {
+            "heading": "2. Local Device Storage & Offline Cache",
+            "body": "To provide a fast, native-like experience at cricket grounds with weak cellular reception, your browser stores a local copy of the app shell, roster JSON data, and your Light/Dark mode theme preference ('gss-theme' in localStorage) directly on your device. You may clear this local cache at any time through your browser settings."
+          },
+          {
+            "heading": "3. Public Roster & Third-Party Links",
+            "body": "Player names, roles, photos, and cricket statistics displayed in the Squad and History views reflect publicly published league participation records on CricClubs. Clicking external links (such as CricClubs scorecards, Apple/Google Maps directions, or social media deep links) will take you to third-party services governed by their own respective privacy policies. To request an update or removal of your profile photo or roster information, contact info@gardenstatestrikers.org."
+          }
+        ]
+      },
+      {
+        "id": "disclaimers",
+        "label": "Disclaimers",
+        "title": "Club Disclaimers, Waivers & Media Notice",
+        "updated": "Effective Date: 2026 Season",
+        "clauses": [
+          {
+            "heading": "1. Recreational Sport & Assumption of Risk",
+            "body": "Hard-ball (leather-ball) cricket involves inherent physical risks. All players, guests, and visitors participating in or attending Garden State Strikers matches, net practices, or events at Cedar Brook Park or other league venues do so voluntarily and at their own risk. Garden State Strikers, its founders, captains, and members assume no liability for personal injury, property damage, or loss incurred during matches, practices, or travel."
+          },
+          {
+            "heading": "2. Matchday Photography & Media Consent",
+            "body": "Photographs and match highlights featured in the Gallery and Player Spotlight sections capture public league fixtures and club events. If you appear in any club photo and wish to have it credited, updated, or removed, please email info@gardenstatestrikers.org and we will promptly accommodate your request."
+          },
+          {
+            "heading": "3. Non-Commercial Recreational Club",
+            "body": "Garden State Strikers operates strictly as a community and recreational sporting group. This site does not process payments, sell tickets, or conduct commercial e-commerce transactions."
+          }
+        ]
+      }
+    ]
   }
 }

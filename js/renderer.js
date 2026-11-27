@@ -7,6 +7,7 @@ const ICONS = {
   mapPin: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>`,
   copy: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>`,
   calendar: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>`,
+  mail: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>`,
   shield: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>`,
   instagram: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>`,
   x: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg>`,
@@ -685,4 +686,92 @@ export function renderGalleryView(photos = [], activeSeason = 'All', gridContain
       </div>
     </button>
   `).join('');
+}
+
+/**
+ * Renders the unified Club Info, Contact & Legal iOS Bottom Sheet (<dialog>) triggered from the top header (ⓘ) button
+ */
+export function renderLegalSheet(clubData, container, activeSectionId = 'terms') {
+  if (!clubData || !container) return;
+
+  const legal = clubData.legal || {};
+  const email = legal.email || clubData.contactEmail || 'info@gardenstatestrikers.org';
+  const copyright = legal.copyright || '© 2026 Garden State Strikers Cricket Club • New Jersey';
+  const sections = legal.sections || [];
+  const selectedSection = sections.find(s => s.id === activeSectionId) || sections[0];
+  if (!selectedSection) return;
+
+  const tabsHtml = sections.map(sec => {
+    const isActive = sec.id === selectedSection.id;
+    return `
+      <button
+        type="button"
+        class="timeline-tab-btn js-legal-tab-btn"
+        role="tab"
+        data-legal-tab="${escapeHtml(sec.id)}"
+        aria-selected="${isActive ? 'true' : 'false'}"
+        aria-pressed="${isActive ? 'true' : 'false'}"
+      >
+        ${escapeHtml(sec.label)}
+      </button>
+    `;
+  }).join('');
+
+  const clausesHtml = (selectedSection.clauses || []).map(clause => `
+    <div class="legal-clause-card">
+      <h4 class="legal-clause-heading">${escapeHtml(clause.heading)}</h4>
+      <p class="legal-clause-body">${escapeHtml(clause.body)}</p>
+    </div>
+  `).join('');
+
+  container.innerHTML = `
+    <!-- Top Contact Card inside the Info Bottom Sheet -->
+    <div class="welcome-contact-bar">
+      <div class="welcome-contact-info">
+        <span class="welcome-contact-kicker">Official Club Contact</span>
+        <a href="mailto:${escapeHtml(email)}" class="welcome-contact-email">
+          ${ICONS.mail}
+          <span>${escapeHtml(email)}</span>
+        </a>
+      </div>
+      <div class="welcome-contact-actions">
+        <a
+          href="mailto:${escapeHtml(email)}?subject=Connecting%20with%20Garden%20State%20Strikers"
+          class="btn-action btn-action--primary"
+          style="padding: 8px 14px; font-size: var(--text-xs);"
+        >
+          ${ICONS.mail}
+          <span>Send Email</span>
+        </a>
+        <button
+          type="button"
+          class="btn-action btn-action--secondary js-copy-email"
+          data-email="${escapeHtml(email)}"
+          aria-label="Copy club email address"
+          style="padding: 8px 14px; font-size: var(--text-xs);"
+        >
+          ${ICONS.copy}
+          <span>Copy Email</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Segmented Legal Tabs (Terms & Conditions | Privacy Policy | Disclaimers) -->
+    <div class="timeline-segmented-tabs" role="tablist" aria-label="Legal Document Sections" style="max-width: 100%;">
+      ${tabsHtml}
+    </div>
+
+    <div class="legal-section-header">
+      <h3 class="legal-section-title">${escapeHtml(selectedSection.title)}</h3>
+      <span class="legal-section-updated">${escapeHtml(selectedSection.updated || '')}</span>
+    </div>
+
+    <div class="legal-clauses-list">
+      ${clausesHtml}
+    </div>
+
+    <p style="text-align: center; font-size: var(--text-xs); color: var(--text-tertiary); padding-top: var(--space-2);">
+      ${escapeHtml(copyright)}
+    </p>
+  `;
 }
