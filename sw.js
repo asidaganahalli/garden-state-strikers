@@ -6,7 +6,7 @@
  * 3. Headless JSON Data (data/*.json): Stale-While-Revalidate for instant field rendering + silent background refresh
  */
 
-const CACHE_VERSION = 'gss-v2.5.0';
+const CACHE_VERSION = 'gss-v2.6.0';
 const SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DATA_CACHE = `${CACHE_VERSION}-data`;
@@ -130,7 +130,7 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return;
 
   if (url.pathname.endsWith('.json') && url.pathname.includes('/data/')) {
-    event.respondWith(staleWhileRevalidate(request, DATA_CACHE));
+    event.respondWith(networkFirstData(request, DATA_CACHE));
     return;
   }
 
@@ -178,18 +178,15 @@ async function cacheFirstStatic(request) {
   return networkResponse;
 }
 
-async function staleWhileRevalidate(request, cacheName) {
+async function networkFirstData(request, cacheName) {
   const cache = await caches.open(cacheName);
-  const cachedResponse = await cache.match(request);
-
-  const networkPromise = fetch(request)
-    .then((networkResponse) => {
-      if (networkResponse && networkResponse.ok) {
-        cache.put(request, networkResponse.clone());
-      }
-      return networkResponse;
-    })
-    .catch(() => null);
-
-  return cachedResponse || networkPromise;
+  try {
+    const freshResponse = await fetch(request, { cache: 'no-cache' });
+    if (freshResponse && freshResponse.ok) {
+      cache.put(request, freshResponse.clone());
+    }
+    return freshResponse;
+  } catch {
+    return (await cache.match(request, { ignoreSearch: true })) || (await caches.match(request, { ignoreSearch: true }));
+  }
 }
