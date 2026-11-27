@@ -2,8 +2,8 @@
  * GARDEN STATE STRIKERS PWA — MAIN CONTROLLER, HISTORY API ROUTER & SERVICE WORKER BOOTSTRAP
  */
 
-import { renderClubView, renderHistoryView, renderSquadView, renderGalleryView, renderLegalSheet } from './renderer.js?v=2.4.0';
-import { SocialSheetController } from './social-sheet.js?v=2.4.0';
+import { renderClubView, renderHistoryView, renderSquadView, renderGalleryView, renderLegalSheet } from './renderer.js?v=2.6.0';
+import { SocialSheetController } from './social-sheet.js?v=2.6.0';
 
 const STATE = {
   club: null,
@@ -79,9 +79,9 @@ function showToast(message) {
  */
 async function loadHeadlessData() {
   const [clubRes, playersRes, galleryRes] = await Promise.all([
-    fetch('./data/club.json'),
-    fetch('./data/players.json'),
-    fetch('./data/gallery.json')
+    fetch('./data/club.json?v=2.6.0', { cache: 'no-cache' }),
+    fetch('./data/players.json?v=2.6.0', { cache: 'no-cache' }),
+    fetch('./data/gallery.json?v=2.6.0', { cache: 'no-cache' })
   ]);
 
   if (!clubRes.ok || !playersRes.ok || !galleryRes.ok) {
